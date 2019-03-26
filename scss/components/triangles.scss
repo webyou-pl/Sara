@@ -38,3 +38,24 @@ $color-triangle: rgba(255,255,255,0.5);
         border-color: transparent transparent $color-triangle transparent;
     }
 }
+
+.trianglesDown{
+    
+    &::before, &::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        border-style: solid;
+    }
+    &::before{
+        left: 0;
+        border-width: $height-triangle 0 0 50vw;
+        border-color: transparent transparent transparent #fff;
+    }
+
+    &::after{
+        right: 0;
+        border-width: 0 0 $height-triangle 50vw;
+        border-color: transparent transparent #fff transparent;
+    }
+}

@@ -71,28 +71,49 @@
         <section id="sale">
             <div class="container">
                 <div class="row">
-                    <div class="col-5">
-                        <h3>Specjalne <span>oferty<span></h3>
-                        <p>{tekst}</p>
+                    <div class="col-6 pt-5 text-center">
+                        <h3 class="mb-5">Specjalne <span>oferty<span></h3>
+                        <p class="mb-5">Integer tincidunt iaculis pellentesque. Duis rutrum nulla quam, vitae sollicitudin arcu iaculis quis. Pellentesque hendrerit est ac justo pulvinar, ultrices faucibus orci fringilla. Nullam vel orci ut sapien molestie tempus. Vivamus finibus, orci vel porttitor accumsan, risus mi sodales risus, vitae vestibulum nisl est id quam. Nulla pulvinar erat luctus velit scelerisque cursus. Cras eleifend tristique est.</p>
                         <a href="" class="btn btn-primary">{nazwa przycisku}</a>
                     </div>
-                    <div class="col-7">
-                        <h2>Promocje</h2>
-                        {images}
-                    </div>
+                    <div class="col-6">
+                        <div class="images">
+                            <h2>Promocje</h2>
+                            <img src="images/strona-glowna/promocja/gabinet.jpg" class="imageUnder" alt="Wyjątkowe promocje">
+                            <div class="imageOn">
+                                <img src="images/strona-glowna/promocja/moje-promocje.jpg" alt="moje promocje">
+                            </div>
+                        </div>
+                    </div>                
                 </div>
             </div>
         </section>
 
-        <section id="galleria">
-            <div class="container">
-                <h2>Galleria</h2>
-                <div class="row">
-                    <div class="col-4">1</div>
-                    <div class="col-4">2</div>
-                    <div class="col-4">3</div>
+        <section id="gallery">
+            <div class="gallery-bg trianglesDown">
+                <div class="container text-center">
+                    <h2 class="mx-auto">Galleria</h2>
+                    <div class="row justify-content-center gallery">
+                        <div class="col-4">
+                            <div class="gallery-image">
+                                <img src="images/strona-glowna/galleria/41725372.jpg" class="img-fluid" alt="Wyjątkowe paznokcie">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="gallery-image">
+                                <img src="images/strona-glowna/galleria/42872961.jpg" class="img-fluid" alt="Manicure">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="gallery-image">
+                                <img src="images/strona-glowna/galleria/45770701.jpg" class="img-fluid" alt="Stylizacja paznokci">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <a href="" class=" mt-5 btn btn-primary">{nazwa przycisku}</a>   
+                        </div>
+                    </div>
                 </div>
-                <a href="" class="btn btn-primary">{nazwa przycisku}</a>
             </div>
         </section>
 
@@ -108,7 +129,7 @@
         <footer id="footer">
             <div class="container">
                 <div class="row bg-primary?">
-                    <div class="col-4"><img src="images/logo-sara.svg" alt="logo sara"></div>
+                    <div class="col-4"><img src="images/sygnet-sara.svg" alt="sygnet sara"></div>
                     <div class="col-4">
                         <nav id="menu">
                             <ul>
@@ -122,7 +143,7 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-4"><img src="images/sygnet-sara.svg" alt="sygnet sara"></div>    
+                    <div class="col-4"><img src="images/logo-sara.svg" alt="logo sara"></div>    
                 </div>
             </div>
         </footer>

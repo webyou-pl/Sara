@@ -1,0 +1,55 @@
+#sale{
+    .images{
+        min-height: 400px;
+        position: relative;
+        justify-content: flex-end;
+        margin-top: 3rem;
+
+        h2{
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 3;
+            top: -3rem;
+        }
+
+        .imageUnder, .imageOn{
+            height: 400px;
+            overflow: hidden;
+            @include borderOnImage();
+            @include box-shadow();
+            @include centerImg();
+        }
+        
+        .imageOn{
+            width: 300px;
+            position: absolute;
+            z-index: 2;
+            top: -3rem;
+            right: 0px;
+        }
+        .imageUnder{
+            width: 400px;
+        }
+    }   
+}
+
+#gallery{
+
+    min-height: 600px;
+    .gallery-bg{
+        width: 100%;
+        height: 200px;
+        background: $primary;
+        position: relative;
+    }
+    .gallery{
+        &-image{
+            position: relative;
+            @include borderOnImage();
+            @include box-shadow();
+            z-index: 1; 
+        }
+    }
+
+}
