@@ -2,7 +2,27 @@
     position: fixed;
     top: 0;
     left: 0;
+    width: 100%;
+    z-index: 90;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    
-    display: none;
+        li{
+            display: inline-block;
+            margin: 0 1rem;
+        }
+
+        li.logo-menu{
+            margin: 0 2rem;
+            width: auto;
+            img{
+                max-height: 50px;
+            }
+        }
+    }
+
 }
