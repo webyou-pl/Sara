@@ -12,13 +12,14 @@
 // layout
 @import 
     "layout/header.scss",
+    "layout/cta.scss",
     "layout/navbar.scss",
     "layout/footer.scss";
 
 
 // /components
-    // @import 
-    //     "components/";
+    @import 
+        "components/triangles.scss";
 
 
 // pages
