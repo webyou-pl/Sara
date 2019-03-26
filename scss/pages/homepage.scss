@@ -1,3 +1,39 @@
+#aboutMe{
+    .images{
+        min-height: 400px;
+        position: relative;
+        justify-content: flex-end;
+        // margin-top: 3rem;
+    }
+
+    h2{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3;
+    }
+    .imageUnder, .imageOn{
+        height: 400px;
+        overflow: hidden;
+        @include borderOnImage();
+        @include box-shadow();
+        @include centerImg();
+    }
+    
+    .imageOn{
+        width: 250px;
+        height: 300px;
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        right: 0px;
+        transform: translateY(-50%);
+    }
+    .imageUnder{
+        width: 350px;
+    }
+}
+
 #numbers{
     background-image: linear-gradient(rgba($primary,0.7),rgba($primary,0.65)),url(/images/strona-glowna/liczby/doskonalosc.jpg);
     background-size: cover;
@@ -59,7 +95,6 @@
 
         h2{
             position: absolute;
-            top: 0;
             right: 0;
             z-index: 3;
             top: -3rem;

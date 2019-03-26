@@ -34,14 +34,19 @@
         <section id="aboutMe">
             <div class="container">
                 <div class="row">
-                    <div class="col-7">
-                        <h2>Omnie</h2>
-                        {images}
+                    <div class="col-6">
+                        <div class="images">
+                            <h2>Omnie</h2>
+                            <img src="images/strona-glowna/o-mnie/Nyska-61A.jpg" class="imageUnder" alt="Nsuak 61A">
+                            <div class="imageOn">
+                                <img src="images/strona-glowna/o-mnie/Nowodworska-Sara.jpg" alt="Sara Nowodworska">
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-5">
-                        <h3>Nowodworska<span>Sara</span></h3>
-                        <p>{tekst}</p>
-                        <a href="" class="btn btn-primary">{nazwa przycisku}</a>
+                    <div class="col-6 pt-5 text-center">
+                        <h3 class="mb-5">Nowodworska <span>Sara</span></h3>
+                        <p class="mb-5">Est nisi magna eiusmod ut pariatur aliqua mollit eiusmod elit nulla. Ut laboris laboris ipsum quis proident adipisicing cillum ad cillum elit adipisicing consectetur officia. Magna duis veniam nisi sint et sit aute aute voluptate. Cillum proident consectetur occaecat cillum non nisi ad nisi commodo eu. Lorem aute minim minim amet aliquip qui. Esse proident sint duis nulla ad cupidatat aliquip elit ullamco cillum.</p>
+                        <a href="#!" class="btn btn-primary">{nazwa przycisku}</a>
                     </div>
                 </div>
             </div>
@@ -163,7 +168,10 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="col-4"><img src="images/logo-sara.svg" alt="logo sara"></div>    
+                    <div class="col-4">
+                        {adres}
+                        <img src="images/logo-sara.svg" alt="logo sara">
+                    </div>    
                 </div>
             </div>
         </footer>
