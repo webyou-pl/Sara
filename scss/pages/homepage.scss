@@ -1,3 +1,35 @@
+#slider{
+    width: 100%;
+    max-width: 100vw;
+    min-height: 650px;
+    height: auto;
+    // background: pink;
+    background-image: url('../../images/strona-glowna/slider/slajd.jpg');
+    // background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+
+
+    .slider-logo{
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        z-index: 10;
+        background: #fff;
+        width: 150px;
+        height: 150px;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        img{
+            padding-right: 15px;
+            transform: scale(1.5);
+            max-height: 200px;
+        }
+    }
+}
+
 #aboutMe{
     .images{
         min-height: 400px;
