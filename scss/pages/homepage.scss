@@ -1,3 +1,55 @@
+#numbers{
+    background-image: linear-gradient(rgba($primary,0.7),rgba($primary,0.65)),url(/images/strona-glowna/liczby/doskonalosc.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+
+    .number-wheel{
+        background: #fff;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+        &__border{
+            height: 190px;
+            width: 190px;
+            border-radius: 50%;
+            border: 2px solid $secondary;
+        }
+
+        &__value{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            h4{
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                margin-bottom: 1.5rem;
+                white-space: nowrap;
+            }
+
+            p{
+                font-size: 3rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
 #sale{
     .images{
         min-height: 400px;
