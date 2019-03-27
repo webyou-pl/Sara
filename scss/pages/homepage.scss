@@ -1,14 +1,14 @@
 #slider{
     width: 100%;
-    max-width: 100vw;
-    min-height: 650px;
-    height: auto;
+    // max-width: 100vw;
+    // min-height: 650px;
+    height: 50vh;
+    min-height: 400px;
     // background: pink;
     background-image: url('../images/strona-glowna/slider/slajd.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    background-attachment: fixed;
     position: relative;
 
 
