@@ -4,8 +4,8 @@
     min-height: 650px;
     height: auto;
     // background: pink;
-    background-image: url('../../images/strona-glowna/slider/slajd.jpg');
-    // background-size: cover;
+    background-image: url('../images/strona-glowna/slider/slajd.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
@@ -28,6 +28,21 @@
             max-height: 200px;
         }
     }
+
+    h1{
+        position: absolute;
+        bottom: calc(50% - 2rem);
+        left: 50%;
+        transform: translate(-50%);
+        // color: $secondary;
+        font-size: 3rem;
+
+        &.bottomLine{
+            &::after{
+                bottom: -20px;
+            }
+        }
+    }
 }
 
 #aboutMe{
@@ -40,8 +55,8 @@
 
     h2{
         position: absolute;
-        top: 0;
-        left: 0;
+        top: -30px;
+        left: -30px;
         z-index: 3;
     }
     .imageUnder, .imageOn{
@@ -67,7 +82,7 @@
 }
 
 #numbers{
-    background-image: linear-gradient(rgba($primary,0.7),rgba($primary,0.65)),url(/images/strona-glowna/liczby/doskonalosc.jpg);
+    background-image: linear-gradient(rgba($primary,0.8),rgba($primary,0.75)),url(..//images/strona-glowna/liczby/doskonalosc.jpg);
     background-size: cover;
     background-position: center;
     min-height: 300px;
@@ -127,9 +142,9 @@
 
         h2{
             position: absolute;
-            right: 0;
+            right: -30px;
             z-index: 3;
-            top: -3rem;
+            top: calc(-3rem - 30px);
         }
 
         .imageUnder, .imageOn{
@@ -154,13 +169,16 @@
 }
 
 #gallery{
-
+    position: relative;
     min-height: 600px;
     .gallery-bg{
         width: 100%;
-        height: 200px;
+        height: 400px;
         background: $primary;
-        position: relative;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
     }
     .gallery{
         &-image{

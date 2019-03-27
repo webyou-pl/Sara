@@ -1,23 +1,25 @@
 // template
-@import
-    "utils/variables.scss",
-    "utils/mixins.scss";
+    @import
+        "utils/variables.scss",
+        "utils/mixins.scss";
 
 
 // base
-@import 
-    "base/base.scss",
-    "base/typography.scss";
+    @import 
+        "base/reset.scss",
+        "base/buttons.scss",
+        "base/base.scss",
+        "base/typography.scss";
 
 // layout
-@import 
-    "layout/header.scss",
-    "layout/cta.scss",
-    "layout/navbar.scss",
-    "layout/footer.scss";
+    @import 
+        "layout/header.scss",
+        "layout/cta.scss",
+        "layout/navbar.scss",
+        "layout/footer.scss";
 
 
-// /components
+//components
     @import 
         "components/triangles.scss";
 
