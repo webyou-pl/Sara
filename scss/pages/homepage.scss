@@ -185,7 +185,14 @@
             position: relative;
             @include borderOnImage();
             @include box-shadow();
-            z-index: 1; 
+            z-index: 1;
+            transition: .6s all ease-in-out;
+            
+            &:hover{
+                transform: rotateY(10deg) rotateX(10deg) scale(1.1);
+                z-index: 9;
+                box-shadow: -8px 14px 20px 0px rgba(0,0,0,0.75);
+            }
         }
     }
 
