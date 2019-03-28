@@ -12,11 +12,9 @@
         border-color: $secondary;
         background-color: rgba($secondary, .75) !important;
       }
-
     &:active{
         border-color: $secondary !important;
     }
-
     &:focus{
         box-shadow: 0 0 0 0.2rem rgba(235, 202, 227, .5);
     }   

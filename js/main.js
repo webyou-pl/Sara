@@ -2,7 +2,7 @@
 // import scrollnav from './modules/scroll-nav';
 
 
-//** Skrypty ogólne **/
+///////** Skrypty ogólne **///////
 
 // zmniejszanie nav
 const menu = document.getElementById('menu');

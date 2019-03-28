@@ -6,8 +6,8 @@
     z-index: 90;
     padding-top: 60px;
     padding-bottom: 60px;
-    transition: .8s all ease-in-out;
-
+    @include transition(.8s);
+ 
     &.scroll-nav{
         background: #fff;
         padding-top: 20px;
@@ -18,13 +18,11 @@
                 font-size: 1.1rem;
                 &.logo-menu{
                     img{
-                        // height: 30px;
                         transform: scale(.8);
                     }
                 }
             }
         }
-
     }
 
     ul{
@@ -45,7 +43,7 @@
                 width: 0%;
                 margin: auto;
                 background-image: linear-gradient(to right, transparent, $primary, $primary, transparent);
-                transition: .2s all ease-in-out;
+                @include transition(.2s);
                 }
 
             &:hover{
@@ -58,11 +56,11 @@
         li.logo-menu{
             margin: 0 2rem;
             width: auto;
-            transition: .2s all ease-in-out;
+            @include transition(.2s);
             img{
                 max-height: 50px;
                 transform: scale(1);
-                transition: .2s all ease-in-out;
+                @include transition(.2s);
                 
             }
             &::after{

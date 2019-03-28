@@ -1,10 +1,7 @@
 #slider{
     width: 100%;
-    // max-width: 100vw;
-    // min-height: 650px;
     height: 50vh;
     min-height: 400px;
-    // background: pink;
     background-image: url('../images/strona-glowna/slider/slajd.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,19 +19,18 @@
         height: 150px;
         transform: translateX(-50%);
         border-radius: 50%;
+        
         img{
             padding-right: 15px;
             transform: scale(1.5);
             max-height: 200px;
         }
     }
-
     h1{
         position: absolute;
         bottom: calc(50% - 2rem);
         left: 50%;
         transform: translate(-50%);
-        // color: $secondary;
         font-size: 3rem;
 
         &.bottomLine{
@@ -50,9 +46,7 @@
         min-height: 400px;
         position: relative;
         justify-content: flex-end;
-        // margin-top: 3rem;
     }
-
     h2{
         position: absolute;
         top: -30px;
@@ -66,7 +60,6 @@
         @include box-shadow();
         @include centerImg();
     }
-    
     .imageOn{
         width: 250px;
         height: 300px;
@@ -82,7 +75,7 @@
 }
 
 #numbers{
-    background-image: linear-gradient(rgba($primary,0.8),rgba($primary,0.75)),url(..//images/strona-glowna/liczby/doskonalosc.jpg);
+    @include background-image-linear-gradient('..//images/strona-glowna/liczby/doskonalosc.jpg');
     background-size: cover;
     background-position: center;
     min-height: 300px;
@@ -103,13 +96,13 @@
         align-items: center;
         position: relative;
         z-index: 2;
+
         &__border{
             height: 190px;
             width: 190px;
             border-radius: 50%;
             border: 2px solid $secondary;
         }
-
         &__value{
             height: 100%;
             display: flex;
@@ -124,7 +117,6 @@
                 margin-bottom: 1.5rem;
                 white-space: nowrap;
             }
-
             p{
                 font-size: 3rem;
                 font-weight: bold;
@@ -146,7 +138,6 @@
             z-index: 3;
             top: calc(-3rem - 30px);
         }
-
         .imageUnder, .imageOn{
             height: 400px;
             overflow: hidden;
@@ -154,7 +145,6 @@
             @include box-shadow();
             @include centerImg();
         }
-        
         .imageOn{
             width: 300px;
             position: absolute;
@@ -185,8 +175,8 @@
             position: relative;
             @include borderOnImage();
             @include box-shadow();
+            @include transition(.6s);
             z-index: 1;
-            transition: .6s all ease-in-out;
             
             &:hover{
                 transform: scale(1.1);

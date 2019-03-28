@@ -1,14 +1,12 @@
 $height-triangle: 70px;
 $color-triangle: rgba(255,255,255,0.5);
 .trianglesInImages-up{
-
     &::before, &::after{
         position: absolute;
         content: '';
         top: 0;
         border-style: solid;
     }
-
     &::before{
         left: 0;
         border-width: 0 0 $height-triangle 100vw;
@@ -40,7 +38,6 @@ $color-triangle: rgba(255,255,255,0.5);
 }
 
 .trianglesDown{
-    
     &::before, &::after{
         content: '';
         position: absolute;
@@ -52,7 +49,6 @@ $color-triangle: rgba(255,255,255,0.5);
         border-width: $height-triangle 0 0 50vw;
         border-color: transparent transparent transparent #fff;
     }
-
     &::after{
         right: 0;
         border-width: 0 0 $height-triangle 50vw;
