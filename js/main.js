@@ -57,3 +57,25 @@ if (document.querySelector('[data-counter]')) {
         }
     }, 200)
 }
+
+// Scroll Button
+window.onscroll = function () {
+    scroll()
+    };
+
+const scrollButton = document.querySelector('#scrollButton');
+function scroll (){
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        document.getElementById("scrollButton").style.display = "block";
+    } else {
+        document.getElementById("scrollButton").style.display = "none";
+    }
+    }
+    
+
+  function scrollToTop() {
+   document.body.scrollTop = 0;
+   document.documentElement.scrollTop = 0;
+  }
+
+
