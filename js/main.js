@@ -5,12 +5,13 @@
 //** Skrypty ogólne **/
 
 // zmniejszanie nav
+const menu = document.getElementById('menu');
+const heightMenu = menu.offsetHeight;
+
 document.addEventListener('scroll', function(){
     let yOffset = window.pageYOffset;
-    let menu = document.getElementById('menu');
-    let heightMenu = menu.offsetHeight;
 
-    if(yOffset => heightMenu){
+    if(yOffset >= heightMenu){
         menu.classList.add('scroll-nav');
     }
     
