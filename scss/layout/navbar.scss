@@ -6,12 +6,12 @@
     z-index: 90;
     padding-top: 60px;
     padding-bottom: 60px;
-    @include transition(.8s);
+    @include transition(.9s);
  
     &.scroll-nav{
         background: #fff;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 6px;
+        padding-bottom: 5px;
         @include box-shadow();
         ul{
             li{
