@@ -1,7 +1,7 @@
 footer#footer{
     .footer{
         &__image{
-            &--sygnet, &--logo-addres{
+            &--sygnet, &--logo{
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -16,23 +16,36 @@ footer#footer{
                     width: 175px;
                 }
             }
-            &--logo-addres{
+            &--logo{
                 img{
                     width: 250px;
                 }
             }
         }
         &__menu{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
 
             ul{
+                display: block;
+                width: 100%;
+                // columns: 3;
                 li{
-                    margin-top: 1.1rem;
-                    margin-bottom: 1.1rem;
+                    display: inline-block;
+                    margin: 1rem .7rem 0 .7rem;
                 }
             }
         }
+    }
+    .footer-socjal{
+        svg{
+            height: 30px;
+            width: 30px;
+            display: inline-block;
+            &:hover{
+                opacity: .8;
+            }
+        }   
     }
 }
