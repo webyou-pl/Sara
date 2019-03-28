@@ -1,14 +1,7 @@
 //COLORS
-$primary: #003E0B;
-$secondary: #EBEBEB;
+$primary: #EAA3C2;
+$secondary: #e1a1e1;
 
-
-//FONTS
-$font-size-base: 1.125rem;
-
-@import url('https://fonts.googleapis.com/css?family=Cardo:400,700|Noto+Sans:400,700&subset=latin-ext');
-
-$serif: 'Cardo', serif;
-$sans-serif: 'Noto Sans', sans-serif;
-
-$font-family-sans-serif: $sans-serif;
+//TRIANGLES
+$height-triangle: 70px;
+$color-triangle: rgba(255,255,255,0.5);

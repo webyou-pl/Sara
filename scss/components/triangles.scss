@@ -1,0 +1,56 @@
+
+.trianglesInImages-up{
+    &::before, &::after{
+        position: absolute;
+        content: '';
+        top: 0;
+        border-style: solid;
+    }
+    &::before{
+        left: 0;
+        border-width: 0 0 $height-triangle 100vw;
+        border-color: transparent transparent transparent $color-triangle;
+    }
+    &::after{
+        right: 0;
+        border-width: 0 50vw $height-triangle 0;
+        border-color: transparent $color-triangle transparent transparent;
+    }
+}
+.trianglesInImages-down{
+    &::before, &::after{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        border-style: solid;
+    }
+    &::before{
+        left: 0;
+        border-width: $height-triangle 0 0 50vw;
+        border-color: transparent transparent transparent $color-triangle;
+    }
+    &::after{
+        right: 0;
+        border-width: 0 0 $height-triangle 100vw;
+        border-color: transparent transparent $color-triangle transparent;
+    }
+}
+
+.trianglesDown{
+    &::before, &::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        border-style: solid;
+    }
+    &::before{
+        left: 0;
+        border-width: $height-triangle 0 0 50vw;
+        border-color: transparent transparent transparent #fff;
+    }
+    &::after{
+        right: 0;
+        border-width: 0 0 $height-triangle 50vw;
+        border-color: transparent transparent #fff transparent;
+    }
+}
