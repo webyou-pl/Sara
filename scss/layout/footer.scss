@@ -1,0 +1,47 @@
+footer#footer{
+    .footer{
+        &__image{
+            &--sygnet, &--logo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                img{
+                    height: auto;
+                }
+            }
+
+            &--sygnet{
+                img{
+                    width: 175px;
+                }
+            }
+            &--logo{
+                img{
+                    width: 250px;
+                }
+            }
+        }
+        &__menu{
+
+            ul{
+                display: block;
+                width: 100%;
+                li{
+                    display: inline-block;
+                    margin: 1rem .7rem 0 .7rem;
+                }
+            }
+        }
+    }
+    .footer-socjal{
+        svg{
+            height: 30px;
+            width: 30px;
+            display: inline-block;
+            &:hover{
+                opacity: .8;
+            }
+        }   
+    }
+}

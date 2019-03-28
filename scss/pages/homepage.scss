@@ -1,0 +1,189 @@
+#slider{
+    width: 100%;
+    height: 50vh;
+    min-height: 400px;
+    background-image: url('../images/strona-glowna/slider/slajd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+
+
+    .slider-logo{
+        position: absolute;
+        bottom: -25px;
+        left: 50%;
+        z-index: 10;
+        background: #fff;
+        width: 150px;
+        height: 150px;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        
+        img{
+            padding-right: 15px;
+            transform: scale(1.5);
+            max-height: 200px;
+        }
+    }
+    h1{
+        position: absolute;
+        bottom: calc(50% - 2rem);
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 3rem;
+
+        &.bottomLine{
+            &::after{
+                bottom: -20px;
+            }
+        }
+    }
+}
+
+#aboutMe{
+    .images{
+        min-height: 400px;
+        position: relative;
+        justify-content: flex-end;
+    }
+    h2{
+        position: absolute;
+        top: -30px;
+        left: -30px;
+        z-index: 3;
+    }
+    .imageUnder, .imageOn{
+        height: 400px;
+        overflow: hidden;
+        @include borderOnImage();
+        @include box-shadow();
+        @include centerImg();
+    }
+    .imageOn{
+        width: 250px;
+        height: 300px;
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        right: 0px;
+        transform: translateY(-50%);
+    }
+    .imageUnder{
+        width: 350px;
+    }
+}
+
+#numbers{
+    @include background-image-linear-gradient('..//images/strona-glowna/liczby/doskonalosc.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-attachment: fixed;
+    overflow: hidden;
+
+    .number-wheel{
+        background: #fff;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 2;
+
+        &__border{
+            height: 190px;
+            width: 190px;
+            border-radius: 50%;
+            border: 2px solid $secondary;
+        }
+        &__value{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            h4{
+                position: absolute;
+                top: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                margin-bottom: 1.5rem;
+                white-space: nowrap;
+            }
+            p{
+                font-size: 3rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+#sale{
+    .images{
+        min-height: 400px;
+        position: relative;
+        justify-content: flex-end;
+        margin-top: 3rem;
+
+        h2{
+            position: absolute;
+            right: -30px;
+            z-index: 3;
+            top: calc(-3rem - 30px);
+        }
+        .imageUnder, .imageOn{
+            height: 400px;
+            overflow: hidden;
+            @include borderOnImage();
+            @include box-shadow();
+            @include centerImg();
+        }
+        .imageOn{
+            width: 300px;
+            position: absolute;
+            z-index: 2;
+            top: -3rem;
+            right: 0px;
+        }
+        .imageUnder{
+            width: 400px;
+        }
+    }   
+}
+
+#gallery{
+    position: relative;
+    min-height: 600px;
+    .gallery-bg{
+        width: 100%;
+        height: 400px;
+        background: $primary;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .gallery{
+        &-image{
+            position: relative;
+            @include borderOnImage();
+            @include box-shadow();
+            @include transition(.6s);
+            z-index: 1;
+            
+            &:hover{
+                transform: scale(1.1);
+                z-index: 9;
+                box-shadow: -8px 14px 20px 0px rgba(0,0,0,0.75);
+            }
+        }
+    }
+
+}

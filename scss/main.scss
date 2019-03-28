@@ -1,0 +1,29 @@
+// template
+    @import
+        "utils/variables.scss",
+        "utils/mixins.scss";
+
+
+// base
+    @import 
+        "base/reset.scss",
+        "base/buttons.scss",
+        "base/base.scss",
+        "base/typography.scss";
+
+// layout
+    @import 
+        "layout/header.scss",
+        "layout/cta.scss",
+        "layout/navbar.scss",
+        "layout/footer.scss";
+
+
+//components
+    @import 
+        "components/triangles.scss";
+
+
+// pages
+    @import 
+        "pages/homepage.scss";
