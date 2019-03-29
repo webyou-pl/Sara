@@ -1,0 +1,9 @@
+#copyright{
+    border-top: 1px solid $primary;
+    padding: 15px 0;
+        a{
+            &:hover{
+                color: $secondary;
+            }
+        }
+}
