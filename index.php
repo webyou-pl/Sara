@@ -107,7 +107,7 @@
             <div class="gallery-bg trianglesDown">
             </div>
                 <div class="container text-center">
-                    <h2 class="mx-auto mb-5">Galleria</h2>
+                    <h2 class="mx-auto mb-5">Galeria</h2>
                     <div class="row justify-content-center gallery">
                         <div class="col-4">
                             <div class="gallery-image">
@@ -131,7 +131,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <a href="#!" class=" mt-5 btn btn-primary">Zobacz gallerie</a>   
+                            <a href="#!" class=" mt-5 btn btn-primary">Zobacz Galerie</a>   
                         </div>
                     </div>
                 </div>

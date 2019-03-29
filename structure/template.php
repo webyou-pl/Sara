@@ -46,7 +46,7 @@ $nav_menu = '
                 </a>
             </li>
             <li><a href="#!">Promocje</a></li>
-            <li><a href="#!">Galleria</a></li>
+            <li><a href="#!">Galeria</a></li>
             <li><a href="#!">kontakt</a></li>
         </ul>
     </nav>
