@@ -175,6 +175,15 @@ $template_copyright = '
         </div>  
     </div>  
 ';	
+
+$breadcrumbs = '
+    <div id="breadcrumbs">
+        <div class="trianglesDown"></div>
+        <div class="breadcrumbs-logo">
+            <img src="images/sygnet-sara.svg" alt="logo sara nowodwosrka">
+        </div>
+    </div>
+';
 ?>
 
 
