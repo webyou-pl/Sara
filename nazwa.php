@@ -15,10 +15,14 @@
         </header>
         <main>
             <div class="container">
-                <h1>Nagłówek h1</h1>
+                <h1>KRZYSIY TY I TWOJE PHP</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur placeat illo inventore cumque dolore corrupti rem ea explicabo maxime rerum. Eos quibusdam commodi odit minima sed, natus excepturi optio unde!</p>
             </div>
         </main>
+    
+
+
+
         <?php echo $cta;
         echo $footer;
         echo $template_copyright;

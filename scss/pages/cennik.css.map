@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACb,MAAM,EAAC,CAAC;EACR,OAAO,EAAE,CAAC;CAMb;;AARD,AAGgB,gBAHA,CAGA,YAAY,CAAA;EAER,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "cennik.scss"
+    ],
+    "names": [],
+    "file": "cennik.css"
+}
