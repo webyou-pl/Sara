@@ -25,7 +25,7 @@
                 <div class="row">
                     <div class="col-6">
                         <div class="images">
-                            <h2 class="rotate-15">Omnie</h2>
+                            <h2 class="rotate-15">O mnie</h2>
                             <img src="images/strona-glowna/o-mnie/Nyska-61A.jpg" class="imageUnder" alt="Nsuak 61A">
                             <div class="imageOn">
                                 <img src="images/strona-glowna/o-mnie/Nowodworska-Sara.jpg" alt="Sara Nowodworska">
