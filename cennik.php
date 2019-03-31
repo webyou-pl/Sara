@@ -24,7 +24,7 @@
                         <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
                             <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                             Manicure 
+                             Manicure
                             </button>
                         </h5>
                         </div>
@@ -100,12 +100,12 @@
                                 </tr>
                                 <tr>
                                 <td>Malowanie lakierem kolor/french 
-                                    <br>&#40opracowanie paznokci bez frezowania podeszwy stóp&#41</td>
+                                    <br><span>&#40opracowanie paznokci bez frezowania podeszwy stóp&#41<span></td>
                                 <td>60/70 zł</td>
                                 </tr>
                                 <tr>
                                 <td>Malowanie hybrydą kolor/french
-                                    <br>&#40opracowanie paznokci bez frezowania podeszwy stóp&#41</td>
+                                    <br><span>&#40opracowanie paznokci bez frezowania podeszwy stóp&#41<span></td>
                                 <td>80/90 zł</td>
                                 </tr>
                                 <tr>
@@ -149,12 +149,12 @@
                                     <table>
                                         <tr>
                                         <td>Henna komplet
-                                            <br>&#40henna brwi i rzęs z regulacją&#41</td>
+                                            <br><span>&#40henna brwi i rzęs z regulacją&#41<span></td>
                                         <td>50 zł</td>
                                         </tr>
                                         <tr>
                                         <td>Henna brwi &#43 regulacja
-                                            <br>&#40opracowanie paznokci bez frezowania podeszwy stóp&#41</td>
+                                            <br><span>&#40opracowanie paznokci bez frezowania podeszwy stóp&#41</span></td>
                                         <td>30 zł</td>
                                         </tr>
                                         <tr>
@@ -177,7 +177,7 @@
                         <div class="card-header" id="headingFour">
                         <h5 class="mb-0">
                             <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Depilacja
+                           Depilacja
                             </button>
                         </h5>
                         </div>
@@ -234,3 +234,23 @@
         echo $socialMedia_fix;
      echo $template_end_body; ?>
 </html>
+
+
+<!-- PLUS
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" version="1.1">
+<g id="surface1">
+<path style=" fill:#9C27B0;" d="M 6 10 C 6 7.789063 7.789063 6 10 6 L 38 6 C 40.210938 6 42 7.789063 42 10 L 42 38 C 42 40.210938 40.210938 42 38 42 L 10 42 C 7.789063 42 6 40.210938 6 38 Z "></path>
+<path style=" fill:#E1BEE7;" d="M 22 12 L 25 12 L 25 36 L 22 36 Z "></path>
+<path style=" fill:#E1BEE7;" d="M 12 23 L 36 23 L 36 26 L 12 26 Z "></path>
+</g>
+</svg>
+
+-->
+<!-- MINUS
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48" version="1.1">
+<g id="surface1">
+<path style=" fill:#9C27B0;" d="M 6 10 C 6 7.789063 7.789063 6 10 6 L 38 6 C 40.210938 6 42 7.789063 42 10 L 42 38 C 42 40.210938 40.210938 42 38 42 L 10 42 C 7.789063 42 6 40.210938 6 38 Z "></path>
+<path style=" fill:#E1BEE7;" d="M 12 23 L 36 23 L 36 26 L 12 26 Z "></path>
+</g>
+</svg>
+-->
