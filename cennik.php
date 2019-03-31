@@ -16,66 +16,65 @@
         <main>
             <div class="container">
                 <h1>Cennik</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur placeat illo inventore cumque dolore corrupti rem ea explicabo maxime rerum. Eos quibusdam commodi odit minima sed, natus excepturi optio unde!</p>
-            </div>
-        </main>
-        <section class="section__cennik">
+                <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur placeat illo inventore cumque dolore corrupti rem ea explicabo maxime rerum. Eos quibusdam commodi odit minima sed, natus excepturi optio unde!</p>
+                
+                <section class="section__cennik">
                 <div id="accordion">
                     <div class="card">
                         <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
                             <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Manicure
+                             Manicure 
                             </button>
                         </h5>
                         </div>
 
-                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="card-body">
                             <table>
                                 <tr>
-                                    <th>test</th>
-                                    <th>test</th>
+                                <td>Manicure tradycyjny z odżywką/lakierem/french</td>
+                                <td>40/50/70 zł</td>
                                 </tr>
                                 <tr>
-                                    <th>test</th>
-                                    <th>test</th>
+                                <td>Manicure japoński</td>
+                                <td>60 zł</td>
                                 </tr>
                                 <tr>
-                                    <th>test</th>
-                                    <th>test</th>
+                                <td>Manicure hybrydowy kolor/french</td>
+                                <td>80/100 zł</td>
                                 </tr>
                                 <tr>
-                                    <th>test</th>
-                                    <th>test</th>
+                                <td>Malowanie lakierem</td>
+                                <td>25 zł</td>
                                 </tr>
                                 <tr>
-                                    <th>test</th>
-                                    <th>test</th>
+                                <td>Usunięcie hybrydy bez manicure</td>
+                                <td>20 zł</td>
                                 </tr>
                                 <tr>
-                                    <th>test</th>
-                                    <th>test</th>
+                                <td>Usunięcie hybrydy przy manicure</td>
+                                <td>bezpłatnie</td>
                                 </tr>
                                 <tr>
-                                    <th>test</th>
-                                    <th>test</th>
+                                <td>Żel na naturalnej płytce kolor/french</td>
+                                <td>130/140 zł</td>
                                 </tr>
                                 <tr>
-                                    <th>test</th>
-                                    <th>test</th>
+                                <td>Żel na formie lub tipsie kolor/french</td>
+                                <td>150/160 zł</td>
                                 </tr>
                                 <tr>
-                                    <th>test</th>
-                                    <th>test</th>
+                                <td>Usunięcie żelu</td>
+                                <td>50 zł</td>
                                 </tr>
                                 <tr>
-                                    <th>test</th>
-                                    <th>test</th>
-                                </tr>
+                                <td>Usunięcie żelu &#43 manicure klasyczny</td>
+                                <td>80 zł</td>
+                                </tr>                                
                                 <tr>
-                                    <th>test</th>
-                                    <th>test</th>
+                                <td>Manicure MEN</td>
+                                <td>50 zł</td>
                                 </tr>
                             </table>
                         </div>
@@ -91,7 +90,49 @@
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                               <table>
+                                <td>Pedicure klaszyczy z odżywką/lakierem</td>
+                                <td>90 zł</td>
+                                </tr>
+                                <tr>
+                                <td>Pedicure hybrydowy kolor/french</td>
+                                <td>120/130 zł</td>
+                                </tr>
+                                <tr>
+                                <td>Malowanie lakierem kolor/french 
+                                    <br>&#40opracowanie paznokci bez frezowania podeszwy stóp&#41</td>
+                                <td>60/70 zł</td>
+                                </tr>
+                                <tr>
+                                <td>Malowanie hybrydą kolor/french
+                                    <br>&#40opracowanie paznokci bez frezowania podeszwy stóp&#41</td>
+                                <td>80/90 zł</td>
+                                </tr>
+                                <tr>
+                                <td>Malowanie lakierem</td>
+                                <td>25 zł</td>
+                                </tr>
+                                <tr>
+                                <td>Usunięcie hybrydy bez pedicure</td>
+                                <td>20 zł</td>
+                                </tr>
+                                <tr>
+                                <td>Usunięcie hybrydy przy pedicure</td>
+                                <td>bezpłatnie</td>
+                                </tr>
+                                <tr>
+                                <td>Pedicure &#43 żel kolor/french</td>
+                                <td>130/140 zł</td>
+                                </tr>
+                                <tr>
+                                <td>Frezowanie podeszwy stóp</td>
+                                <td>50 zł</td>
+                                </tr>
+                                <tr>
+                                <td>Pedicure MEN</td>
+                                <td>100 zł</td>
+                                </tr>                                
+                            </table>
                         </div>
                         </div>
                     </div>
@@ -104,9 +145,32 @@
                         </h5>
                         </div>
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                        <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
+                            <div class="card-body">
+                                    <table>
+                                        <tr>
+                                        <td>Henna komplet
+                                            <br>&#40henna brwi i rzęs z regulacją&#41</td>
+                                        <td>50 zł</td>
+                                        </tr>
+                                        <tr>
+                                        <td>Henna brwi &#43 regulacja
+                                            <br>&#40opracowanie paznokci bez frezowania podeszwy stóp&#41</td>
+                                        <td>30 zł</td>
+                                        </tr>
+                                        <tr>
+                                        <td>Henna brwi</td>
+                                        <td>20 zł</td>
+                                        </tr>
+                                        <tr>
+                                        <td>Henna rzęs</td>
+                                        <td>20 zł</td>
+                                        </tr>
+                                        <tr>
+                                        <td>Regulacja brwi</td>
+                                        <td>20 zł</td>
+                                        </tr>
+                                </table>                        
+                            </div>
                         </div>
                     </div>
                     <div class="card">
@@ -120,11 +184,49 @@
 
                         <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                        </div>
+                                    <table>
+                                        <tr>
+                                        <td>Regulacja brwi</td>
+                                        <td>20 zł</td>
+                                        </tr>
+                                        <tr>
+                                        <td>Wąsik</td>
+                                        <td>20 zł</td>
+                                        </tr>
+                                        <tr>
+                                        <td>Broda</td>
+                                        <td>20 zł</td>
+                                        </tr>
+                                        <tr>
+                                        <td>Wąsik &#43 broda</td>
+                                        <td>30 zł</td>
+                                        </tr>
+                                        <tr>
+                                        <td>Pachy</td>
+                                        <td>30 zł</td>
+                                        </tr>
+                                        <tr>
+                                        <td>Ręce</td>
+                                        <td>30 - 50 zł</td>
+                                        </tr>
+                                        <td>Całe nogi</td>
+                                        <td>80 - 100 zł</td>
+                                        </tr>
+                                        <tr>
+                                        <td>Łydki</td>
+                                        <td>40 - 50 zł</td>
+                                        </tr>                                        
+                                        <td>Uda</td>
+                                        <td>50 - 60 zł</td>
+                                        </tr>
+                                </table>   
+                            </div>
                     </div>
                 </div>
         </section>
+            </div>
+        </main>
+       
 
         <?php echo $cta;
         echo $footer;

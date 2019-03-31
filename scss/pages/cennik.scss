@@ -1,9 +1,72 @@
 .section__cennik {
     margin:0;
     padding: 0;
-                .card-header{
-                    //background-image: url(../../images/cennik/Patrick_Fore_on_Unsplash.jpg);
-                    background: linear-gradient(rgba($primary, 0.8), rgba($primary, 0.75));
+                #headingOne, #headingTwo, #headingThree, #headingFour {
+                background-size: cover;
+                transition: background-image .5s;
                 }
 
+                
+                #headingOne {
+                    background-image: url(./../images/cennik/1.jpg);
+                }
+                    #headingOne:hover {
+                            background-image: linear-gradient(rgba($primary, 0.8), rgba($primary, 0.75)),url(./../images/cennik/1.jpg);
+                    }
+                #headingTwo{
+                    background-image: url(./../images/cennik/2.jpg);
+                }
+                    #headingTwo:hover {
+                        background-image: linear-gradient(rgba($primary, 0.8), rgba($primary, 0.75)),url(./../images/cennik/2.jpg);
+                    }
+                #headingThree {
+                    background-image: url(./../images/cennik/3.jpg);
+                }
+                    #headingThree:hover {
+                        background-image: linear-gradient(rgba($primary, 0.8), rgba($primary, 0.75)),url(./../images/cennik/3.jpg);
+                    }
+                #headingFour {
+                    background-image: url(./../images/cennik/4.jpg);
+                }
+                    #headingFour:hover {
+                        background-image: linear-gradient(rgba($primary, 0.8), rgba($primary, 0.75)),url(./../images/cennik/4.jpg);
+                    }
+                
+
+                .btn {
+                  font-size: 100%;
+                  text-decoration: none;
+                  color:white;
+                  text-transform: uppercase;
+                  font-family: "Caveat", cursive;
+                }
+      
+                .card-body{
+                    padding-bottom: 0;
+                    padding-top: 0;
+
+                        table, th, td { 
+                            padding: 15px;
+                            }
+                        table {
+                            display: table;
+                            width: 100%;
+                            font-size: 120%;
+
+                                tr {
+                                    border-bottom: 2px solid $secondary
+                                }
+                                tr:last-child {
+                                    border-bottom: 5px;
+                                }
+                                td:first-child {
+                                    width: 50%;
+                                }
+                                td:last-child {
+                                    text-align: right;
+                                    
+                                }
+                        }
+                }
+               
 }
