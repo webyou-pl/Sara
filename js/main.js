@@ -57,3 +57,21 @@ if (document.querySelector('[data-counter]')) {
         }
     }, 200)
 }
+
+
+// JS CENNIK
+
+/*
+$(function () {
+    $('button').click(function () {
+
+       $(".plusMinus").attr('src', "./images/cennik/plus.png");
+
+});
+*/
+function change() {
+    var x = document.querySelector('.plusMinus');
+    
+    x.src='./images/cennik/plus.png';
+
+}
