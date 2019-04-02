@@ -37,17 +37,17 @@ $template_end_body = '
 $nav_menu = '
     <nav id="menu" class="">
         <ul>
-            <li><a href="#!">Strona główna</a></li>
-            <li><a href="#!">O mnie</a></li>
-            <li><a href="#!">Cennik</a></li>
+            <li><a href="index.php">Strona główna</a></li>
+            <li><a href="o-mnie">O mnie</a></li>
+            <li><a href="cennik.php">Cennik</a></li>
             <li class="logo-menu">
-                <a href="#!">
+                <a href="index.php">
                     <img src="images/logo-sara.svg" alt="logo Sara Nowodworska">
                 </a>
             </li>
-            <li><a href="#!">Promocje</a></li>
-            <li><a href="#!">Galeria</a></li>
-            <li><a href="#!">kontakt</a></li>
+            <li><a href="promocje.php">Promocje</a></li>
+            <li><a href="galeria.php">Galeria</a></li>
+            <li><a href="kontakt.php">kontakt</a></li>
         </ul>
     </nav>
 ';
