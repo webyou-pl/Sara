@@ -7,13 +7,14 @@ var reload = browserSync.reload;
 // gulp.task('default', ['sass', 'watch', 'browser-sync']);
 
 
-gulp.task('sass', () => {
+gulp.task('sass', done => {
   return gulp.src('./scss/main.scss')
     .pipe(sourcemaps.init())
     .pipe(sass({outputStyle: 'compressed'}))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('./build/'))
     .pipe(browserSync.stream())
+    done();
 });
 
 
@@ -31,3 +32,10 @@ gulp.task('browser-sync', () => {
   gulp.watch('**/*.css').on("change", reload);
 
 });
+
+gulp.task('default', gulp.parallel(
+        'sass',
+        'watch',
+        'browser-sync'
+  )
+);
