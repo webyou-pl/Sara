@@ -61,14 +61,9 @@ if (document.querySelector('[data-counter]')) {
 
 // JS CENNIK
 
-/*
-$(function () {
-    $('button').click(function () {
 
-       $(".plusMinus").attr('src', "./images/cennik/plus.png");
 
-});
-*/
+/* dzila
 var plus = './images/cennik/plus.png';
 var minus = "./images/cennik/minus.png";
 var classElement = document.querySelector('.plusMinus');
@@ -85,14 +80,25 @@ function check(){
         $('.plusMinus').attr('src', "./images/cennik/minus.png");
         falTru = false;}
 };
+*/
 
-/*
-function change() {
-    var x = document.querySelector('.plusMinus');
-    
-   // x.src='./images/cennik/plus.png';
-    x.src = obraz;
+// LEPIEJ :)
 
-}*/
 
+var plus = './images/cennik/plus.png';
+var minus = "./images/cennik/minus.png";
+
+var falTru = false;
+
+
+$("button").click(function ()  {
+    if (falTru == false) {
+        $('button img').attr('src', "./images/cennik/plus.png");
+        falTru = true;
+    }
+    else {
+        $('button img').attr('src', "./images/cennik/minus.png");
+        falTru = false;
+    }
+});
 
