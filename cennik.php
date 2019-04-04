@@ -23,8 +23,8 @@
                     <div class="card">
                         <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
-                            <button  onclick="change()" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                             <img src="./images/cennik/minus.png"  class="plusMinus" onclick="change()"> Manicure
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                             <img src="./images/cennik/minus.png"  class="plusMinus"> Manicure
                             </button>
                         </h5>
                         </div>

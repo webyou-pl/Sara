@@ -69,9 +69,30 @@ $(function () {
 
 });
 */
+var plus = './images/cennik/plus.png';
+var minus = "./images/cennik/minus.png";
+var classElement = document.querySelector('.plusMinus');
+var falTru = false;
+
+classElement.addEventListener('click', function () {check()}
+);
+
+function check(){
+    if(falTru==false){
+    $('.plusMinus').attr('src', "./images/cennik/plus.png");
+    falTru = true;}
+    else {
+        $('.plusMinus').attr('src', "./images/cennik/minus.png");
+        falTru = false;}
+};
+
+/*
 function change() {
     var x = document.querySelector('.plusMinus');
     
-    x.src='./images/cennik/plus.png';
+   // x.src='./images/cennik/plus.png';
+    x.src = obraz;
 
-}
+}*/
+
+
