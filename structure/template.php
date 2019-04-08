@@ -1,4 +1,6 @@
 ﻿<?php
+$address = 'https://'.$_SERVER['SERVER_NAME'].'/sara';
+
 $template_start_head = ' 
 <head>
     <!-- Required meta tags -->
@@ -7,14 +9,14 @@ $template_start_head = '
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="build/main.css">
+    <link rel="stylesheet" type="text/css" href="'.$address.'/build/main.css'.'">
 ';
 
 $template_end_head = '
-    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e1a1e1">
+    <link rel="apple-touch-icon" sizes="180x180" href="'.$address.'/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="'.$address.'/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="'.$address.'/images/favicon-16x16.png">
+    <link rel="mask-icon" href="'.$address.'/images/safari-pinned-tab.svg" color="#e1a1e1">
     <meta name="msapplication-TileColor" content="#e1a1e1">
     <meta name="theme-color" content="#ffffff">
 </head>
@@ -30,24 +32,24 @@ $template_end_body = '
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="'.$address.'/js/main.js"></script>
 </body>
 ';
 
 $nav_menu = '
     <nav id="menu" class="">
         <ul>
-            <li><a href="index.php">Strona główna</a></li>
-            <li><a href="o-mnie">O mnie</a></li>
-            <li><a href="cennik.php">Cennik</a></li>
+            <li><a href="'.$address.'/index.php">Strona główna</a></li>
+            <li><a href="'.$address.'/o-mnie">O mnie</a></li>
+            <li><a href="'.$address.'/cennik.php">Cennik</a></li>
             <li class="logo-menu">
-                <a href="index.php">
-                    <img src="images/logo-sara.svg" alt="logo Sara Nowodworska">
+                <a href="'.$address.'/index.php">
+                    <img src="'.$address.'/images/logo-sara.svg" alt="logo Sara Nowodworska">
                 </a>
             </li>
-            <li><a href="promocje.php">Promocje</a></li>
-            <li><a href="galeria.php">Galeria</a></li>
-            <li><a href="kontakt.php">kontakt</a></li>
+            <li><a href="'.$address.'/subpages/promocje.php">Promocje</a></li>
+            <li><a href="'.$address.'/galeria.php">Galeria</a></li>
+            <li><a href="'.$address.'/kontakt.php">kontakt</a></li>
         </ul>
     </nav>
 ';
@@ -69,7 +71,7 @@ $footer = '
             <div class="row">
                 <div class="col-4 footer__image--sygnet text-center">
                     <a href="#!">
-                        <img src="images/sygnet-sara.svg" alt="sygnet sara">
+                        <img src="'.$address.'/images/sygnet-sara.svg" alt="sygnet sara">
                     </a>
                     <div class="footer-socjal">
                         <a target="_blank" href="https://www.facebook.com/Sara-Nowodworska-Sara-Nails-2113993628851184">
@@ -115,7 +117,7 @@ $footer = '
                         </div>
                         <div class="col-6 footer__image--logo">
                             <a href="#!">
-                                <img src="images/logo-sara.svg" alt="logo sara">
+                                <img src="'.$address.'/images/logo-sara.svg" alt="logo sara">
                             </a>
                         </div>
                     </div>
@@ -180,7 +182,7 @@ $breadcrumbs = '
     <div id="breadcrumbs">
         <div class="trianglesDown"></div>
         <div class="breadcrumbs-logo">
-            <img src="images/sygnet-sara.svg" alt="logo sara nowodwosrka">
+            <img src="'.$address.'/images/sygnet-sara.svg" alt="logo sara nowodwosrka">
         </div>
     </div>
 ';
