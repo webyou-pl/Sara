@@ -1,112 +1,120 @@
-.section__cennik {
-    margin:0;
-    padding: 0;
+.section{
 
-    
-                #headingOne, #headingTwo, #headingThree, #headingFour {
-                background-size: auto 100%;
-                transition: background-image .5s;
-                position: relative;
-                padding: 0;
-                background-position: bottom;
-                background-repeat: no-repeat;
-                height: 77px;
-                max-width: inherit;
-                    &::before{
-                        content:"";
-                        height: calc(100% + 2px);
-                        width: 100%;
-                        position:absolute;
-                        top:0;
-                        left: 0;
-                    }
-                    &:hover{
+    &__cennik {
+        margin:0;
+        padding: 0;
+
+        
+                    #headingOne, #headingTwo, #headingThree, #headingFour {
+                    background-size: auto 100%;
+                    transition: background-image .5s;
+                    position: relative;
+                    padding: 0;
+                    background-position: bottom;
+                    background-repeat: no-repeat;
+                    height: 77px;
+                    max-width: inherit;
                         &::before{
-                            opacity: 0.8;
-                            background: $primary;
-                            cursor: pointer;        
-                        }
-                    }
-                    h5{
-                        font-size: 1.5rem;
-                        position: relative;
-                        z-index: 2;
-                        /*&::before{
-                            position: absolute;
-                            top:50%;
-                            left:5px;
-                            transform:translateY(-50%);
-                            content:'';
-                            background-image: url(./../images/cennik/plus.svg);
-                            width: 25px;
-                            height: 25px;
-                            
-                        }*/
-                        .plusMinus{
-                            position: absolute;
-                            top:50%;
-                            left:5px;
-                            transform:translateY(-50%);
-                            width: 25px;
-                            height: 25px;
-                        }
-                    }
-                }
-                #headingOne {
-                    background-image: url(./../images/cennik/1.jpg);
-                }
-                #headingTwo{
-                    background-image: url(./../images/cennik/2.jpg);
-                }
-                #headingThree {
-                    background-image: url(./../images/cennik/3.jpg);
-                }
-                #headingFour {
-                    background-image: url(./../images/cennik/4.jpg);
-                }
-                .btn {
-                  font-size: 100%;
-                  text-decoration: none;
-                  color:white;
-                  text-transform: uppercase;
-                  font-family: "Caveat", cursive;
-                  width: 100%;
-                  height: 100%;
-                  padding: 20px 30px;
-                  text-align: left;
-                }
-                .card-body{
-                    padding-bottom: 0;
-                    padding-top: 0;
-                        table, th, td { 
-                            padding: 15px;
-                            }
-                        table {
-                            display: table;
+                            content:"";
+                            height: calc(100% + 2px);
                             width: 100%;
-                            font-size: 1.2em;
-                                tr {
-                                    border-bottom: 2px solid $secondary;
-                                    display:flex;
-                                    align-items: center;
-                                    justify-content: space-between;
-                                        td {
-                                                span {
-                                                    font-size: 0.8em;
-                                                }
-                                            &:first-child {
-                                                width: 50%;
-                                            }
-                                            &:last-child {
-                                                text-align: right;
-                                            }
-                                        }
-                                        &:last-child{
-                                            border-bottom: 5px;
-                                        }
-                                }
+                            position:absolute;
+                            top:0;
+                            left: 0;
                         }
+                        &:hover{
+                            &::before{
+                                opacity: 0.8;
+                                background: $primary;
+                                cursor: pointer;        
+                            }
+                        }
+              
+                    }
+                    #headingOne {
+                        background-image: url(./../images/cennik/1.jpg);
+                    }
+                    #headingTwo{
+                        background-image: url(./../images/cennik/2.jpg);
+                    }
+                    #headingThree {
+                        background-image: url(./../images/cennik/3.jpg);
+                    }
+                    #headingFour {
+                        background-image: url(./../images/cennik/4.jpg);
+                    }
+                    .btn {
+                    font-size: 100%;
+                    text-decoration: none;
+                    color:white;
+                    text-transform: uppercase;
+                    font-family: "Caveat", cursive;
+                    width: 100%;
+                    height: 100%;
+                    padding: 20px 30px;
+                    text-align: left;
+                    }
+                    .card-body{
+                        padding-bottom: 0;
+                        padding-top: 0;
+                            table, th, td { 
+                                padding: 15px;
+                                }
+                            table {
+                                display: table;
+                                width: 100%;
+                                font-size: 1.2em;
+                                    tr {
+                                        border-bottom: 2px solid $secondary;
+                                        display:flex;
+                                        align-items: center;
+                                        justify-content: space-between;
+                                            td {
+                                                    span {
+                                                        font-size: 0.8em;
+                                                    }
+                                                &:first-child {
+                                                    width: 50%;
+                                                }
+                                                &:last-child {
+                                                    text-align: right;
+                                                }
+                                            }
+                                            &:last-child{
+                                                border-bottom: 5px;
+                                            }
+                                    }
+                            }
 
+                    }
+        .card{
+            &-header{
+                h5{
+                    button{
+                        position: relative;
+                        
+                        &::before{
+                            content: '';
+                            width: 30px;
+                            height: 30px;
+                            position: absolute;
+                            top: 50%;
+                            left: 0px;
+                            transform: translateY(-50%);
+                            background-image: url('../images/cennik/minus.png');
+                            background-size: cover;
+                            transition: .2s all ease-in-out;
+                        }
+                        &.collapsed{
+                            &::before{
+                                background-image: url('../images/cennik/plus.png');
+                            }
+                        }
+                    }
                 }
-}
+            }
+        }
+
+    }
                
+}

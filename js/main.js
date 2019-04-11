@@ -1,3 +1,5 @@
+//import { on } from "cluster";
+
 //** Moduły**/
 // import scrollnav from './modules/scroll-nav';
 
@@ -82,9 +84,9 @@ function check(){
 };
 */
 
-// LEPIEJ :)
+// Dla samego img w HTML
 
-
+/*
 var plus = './images/cennik/plus.png';
 var minus = "./images/cennik/minus.png";
 
@@ -101,4 +103,41 @@ $("button").click(function ()  {
         falTru = false;
     }
 });
+*/
+
+
+/* Dla Klasy
+var falTru = false;
+
+
+
+$("button").click(function () {
+    if (falTru == false) {
+        $('.plusMinus').attr('src', "./images/cennik/plus.png");
+        falTru = true;
+    }
+    else {
+        $('.plusMinus').attr('src', "./images/cennik/minus.png");
+        falTru = false;
+    }
+});
+*/
+
+/*
+var falTru = false;
+
+$('.plusMinus').one('click', function () {
+    if (falTru == false) {
+        $('.plusMinus').on.attr('src', "./images/cennik/plus.png");
+        falTru = true;
+    }
+    else {
+        $('.plusMinus').attr('src', "./images/cennik/minus.png");
+        falTru = false;
+    };
+
+});
+*/
+
+console.log($('button').find('button[aria-expanded]').attr('aria-expanded'));
 
