@@ -40,16 +40,16 @@ $nav_menu = '
     <nav id="menu" class="">
         <ul>
             <li><a href="'.$address.'/index.php">Strona główna</a></li>
-            <li><a href="'.$address.'/o-mnie">O mnie</a></li>
-            <li><a href="'.$address.'/cennik.php">Cennik</a></li>
+            <li><a href="'.$address.'/subpages/o-mnie.php">O mnie</a></li>
+            <li><a href="'.$address.'/subpages/cennik.php">Cennik</a></li>
             <li class="logo-menu">
                 <a href="'.$address.'/index.php">
                     <img src="'.$address.'/images/logo-sara.svg" alt="logo Sara Nowodworska">
                 </a>
             </li>
             <li><a href="'.$address.'/subpages/promocje.php">Promocje</a></li>
-            <li><a href="'.$address.'/galeria.php">Galeria</a></li>
-            <li><a href="'.$address.'/kontakt.php">kontakt</a></li>
+            <li><a href="'.$address.'/subpages/galeria.php">Galeria</a></li>
+            <li><a href="'.$address.'/subpages/kontakt.php">kontakt</a></li>
         </ul>
     </nav>
 ';
