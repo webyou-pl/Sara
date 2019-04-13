@@ -14,7 +14,7 @@
         <main>
             <div class="container">
                 <h1>Nagłówek h1</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur placeat illo inventore cumque dolore corrupti rem ea explicabo maxime rerum. Eos quibusdam commodi odit minima sed, natus excepturi optio unde!</p>
+                <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur placeat illo inventore cumque dolore corrupti rem ea explicabo maxime rerum. Eos quibusdam commodi odit minima sed, natus excepturi optio unde!</p>
 
                 <div class="row justify-content-center">
                     <div class="col-auto">
@@ -28,7 +28,6 @@
                             <a href="#!" class="btn btn-white">Wykorzystaj promocje</a>
                             </div>
                         </div>
-                        https://pl.pinterest.com/pin/310185493082498672/
                     </div>
                 </div>
             </div>
