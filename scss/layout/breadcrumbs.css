@@ -1,0 +1,30 @@
+#breadcrumbs {
+  min-height: 255px;
+  width: 100%;
+  background-image: url("../images/breadcrumbs/salon-kosmetyczny.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+}
+
+#breadcrumbs .breadcrumbs-logo {
+  position: absolute;
+  bottom: -25px;
+  left: calc(50% + 15px);
+  z-index: 10;
+  background: #fff;
+  width: 150px;
+  height: 150px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-radius: 50%;
+}
+
+#breadcrumbs .breadcrumbs-logo img {
+  padding-right: 15px;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  max-height: 200px;
+}
+/*# sourceMappingURL=breadcrumbs.css.map */

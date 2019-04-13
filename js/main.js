@@ -1,3 +1,5 @@
+//import { on } from "cluster";
+
 //** Moduły**/
 // import scrollnav from './modules/scroll-nav';
 
@@ -57,3 +59,84 @@ if (document.querySelector('[data-counter]')) {
         }
     }, 200)
 }
+
+
+// JS CENNIK DO ZABAWYH POTEM DO USUNIECIA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+/* dzila
+var plus = './images/cennik/plus.png';
+var minus = "./images/cennik/minus.png";
+var classElement = document.querySelector('.plusMinus');
+var falTru = false;
+
+classElement.addEventListener('click', function () {check()}
+);
+
+function check(){
+    if(falTru==false){
+    $('.plusMinus').attr('src', "./images/cennik/plus.png");
+    falTru = true;}
+    else {
+        $('.plusMinus').attr('src', "./images/cennik/minus.png");
+        falTru = false;}
+};
+*/
+
+// Dla samego img w HTML
+
+/*
+var plus = './images/cennik/plus.png';
+var minus = "./images/cennik/minus.png";
+
+var falTru = false;
+
+
+$("button").click(function ()  {
+    if (falTru == false) {
+        $('button img').attr('src', "./images/cennik/plus.png");
+        falTru = true;
+    }
+    else {
+        $('button img').attr('src', "./images/cennik/minus.png");
+        falTru = false;
+    }
+});
+*/
+
+
+/* Dla Klasy
+var falTru = false;
+
+
+
+$("button").click(function () {
+    if (falTru == false) {
+        $('.plusMinus').attr('src', "./images/cennik/plus.png");
+        falTru = true;
+    }
+    else {
+        $('.plusMinus').attr('src', "./images/cennik/minus.png");
+        falTru = false;
+    }
+});
+*/
+
+/*
+var falTru = false;
+
+$('.plusMinus').one('click', function () {
+    if (falTru == false) {
+        $('.plusMinus').on.attr('src', "./images/cennik/plus.png");
+        falTru = true;
+    }
+    else {
+        $('.plusMinus').attr('src', "./images/cennik/minus.png");
+        falTru = false;
+    };
+
+});
+*/
+
+
