@@ -25,7 +25,7 @@
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing Lorem, ipsum dolor sit amet consectetur adipisicing</p>
                             </div>
                             <div class="card-promotion__more">
-                                btn
+                            <a href="#!" class="btn btn-white">Wykorzystaj promocje</a>
                             </div>
                         </div>
                         https://pl.pinterest.com/pin/310185493082498672/
