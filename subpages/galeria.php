@@ -12,49 +12,94 @@
             <?php echo $breadcrumbs; ?>
         </header>
         <main>
+
             <div class="container">
                 <h1>Galeria</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur placeat illo inventore cumque dolore corrupti rem ea explicabo maxime rerum. Eos quibusdam commodi odit minima sed, natus excepturi optio unde!</p>
-            </div>
 
-
-
-
-
-
-        <section class="galeria">
-
-            <div class="grid-container">
-                <div class="grid-item">
-                    <img src="../images/galeria/IMG-20190327-WA0000.jpg" class="gallery-grid-image">
-                </div>
-                <div class="grid-item">
-                 <img src="../images/galeria/IMG-20190327-WA0000.jpg" class="gallery-grid-image">    
-                </div>
-                <div class="grid-item">
-                    <img src="../images/galeria/IMG-20190327-WA0000.jpg" class="gallery-grid-image">
+                <!--Wiersz pierwszy-->
+                <div class="row justify-content-center">
+                    <div class="col-sm grid">
+                        <img src="../images/galeria/1.jpg" class="grid-image">
+                    </div>
+                    <div class="col-sm grid">
+                         <img src="../images/galeria/2.jpg" class="grid-image">
+                    </div>
+     
                 </div>  
-                <div class="grid-item">
-                    <img src="../images/galeria/IMG-20190327-WA0000.jpg" class="gallery-grid-image">
+                <!--Wiersz drugi-->              
+                <div class="row justify-content-center">
+                    <div class="col-sm grid">
+                        <img src="../images/galeria/3.jpg" class="grid-image">
+                    </div>
+                    <div class="col-sm grid">
+                         <img src="../images/galeria/4.jpg" class="grid-image">
+                    </div>
                 </div>
-                <div class="grid-item">
-                    <img src="../images/galeria/IMG-20190327-WA0000.jpg" class="gallery-grid-image">
+                <!--Wiersz trzeci-->  
+                <div class="row justify-content-center">
+        
+                    <div class="col-sm grid">
+                        <img src="../images/galeria/101.jpg" class="grid-image">
+                    </div>
+                       <div class="col-sm grid">
+                        <img src="../images/galeria/102.jpg" class="grid-image">
+                    </div>
+                    <div class="col-sm grid">
+                        <img src="../images/galeria/103.jpg" class="grid-image">
+                    </div> 
                 </div>
-                <div class="grid-item">
-                    <img src="../images/galeria/IMG-20190327-WA0000.jpg" class="gallery-grid-image">
+                <!--Wiersz czwarty-->
+                                <div class="row justify-content-center">
+                    <div class="col-sm grid">
+                        <img src="../images/galeria/5.jpg" class="grid-image">
+                    </div>
+                    <div class="col-sm grid">
+                         <img src="../images/galeria/6.jpg" class="grid-image">
+                    </div>
+     
                 </div>  
-                <div class="grid-item">
-                    <img src="../images/galeria/IMG-20190327-WA0000.jpg" class="gallery-grid-image">
+                <!--Wiersz piąty-->              
+                <div class="row justify-content-center">
+                    <div class="col-sm grid">
+                        <img src="../images/galeria/7.jpg" class="grid-image">
+                    </div>
+                    <div class="col-sm grid">
+                         <img src="../images/galeria/8.jpg" class="grid-image">
+                    </div>
                 </div>
-                <div class="grid-item"> 
-                    <img src="../images/galeria/IMG-20190327-WA0000.jpg" class="gallery-grid-image">
+
+                <!--Wiersz szósty-->  
+                <div class="row justify-content-center">
+        
+                    <div class="col-sm grid">
+                        <img src="../images/galeria/104.jpg" class="grid-image">
+                    </div>
+                       <div class="col-sm grid">
+                        <img src="../images/galeria/105.jpg" class="grid-image">
+                    </div>
+                    <div class="col-sm grid">
+                        <img src="../images/galeria/106.jpg" class="grid-image">
+                    </div> 
                 </div>
-                <div class="grid-item">
-                    <img src="../images/galeria/IMG-20190327-WA0000.jpg" class="gallery-grid-image">
+                <!--Wiersz siódmy-->              
+                <div class="row justify-content-center">
+                    <div class="col-sm grid">
+                        <img src="../images/galeria/9.jpg" class="grid-image">
+                    </div>
+                    <div class="col-sm grid">
+                         <img src="../images/galeria/10.jpg" class="grid-image">
+                    </div>
                 </div>
                 
+     
             </div>
 
+
+       
+
+
+     
         </main>
 
         
