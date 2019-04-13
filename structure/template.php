@@ -48,7 +48,7 @@ $nav_menu = '
                 </a>
             </li>
             <li><a href="'.$address.'/subpages/promocje.php">Promocje</a></li>
-            <li><a href="'.$address.'/galeria.php">Galeria</a></li>
+            <li><a href="'.$address.'/subpages/galeria.php">Galeria</a></li>
             <li><a href="'.$address.'/kontakt.php">kontakt</a></li>
         </ul>
     </nav>
