@@ -61,7 +61,7 @@ if (document.querySelector('[data-counter]')) {
 }
 
 
-// JS CENNIK
+// JS CENNIK DO ZABAWYH POTEM DO USUNIECIA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 
@@ -139,5 +139,4 @@ $('.plusMinus').one('click', function () {
 });
 */
 
-console.log($('button').find('button[aria-expanded]').attr('aria-expanded'));
 
