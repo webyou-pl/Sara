@@ -15,6 +15,16 @@
             <div class="container">
                 <h1>Kontakt</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur placeat illo inventore cumque dolore corrupti rem ea explicabo maxime rerum. Eos quibusdam commodi odit minima sed, natus excepturi optio unde!</p>
+                <form>
+                    <input type="email">
+                    <input type="tel">
+                    <textarea rows="4" cols="50">
+                        At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies. 
+                    </textarea>
+                    <input type="checkbox">
+                    <input type="submit" value="Submit">
+                </form>
+                
             </div>
         </main>
         <?php
