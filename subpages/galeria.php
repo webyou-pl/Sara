@@ -20,7 +20,7 @@
                 <!--Wiersz pierwszy-->
                 <div class="row justify-content-center">
                     <div class="col-12 col-sm grid">
-                        <img src="../images/galeria/1.jpg" class="grid-image">
+                        <img src="../images/galeria/1.jpg" class="grid-image" id="myImg">
                     </div>
                     <div class="col-12 col-sm grid">
                          <img src="../images/galeria/2.jpg" class="grid-image">
@@ -97,7 +97,11 @@
 
 
        
-
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+                <div id="caption"></div>
+            </div>
 
      
         </main>
