@@ -61,22 +61,32 @@ if (document.querySelector('[data-counter]')) {
 
 // Galleria
 
+
 // Get the modal
 var modal = document.getElementById('myModal');
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById('myImg');
-var modalImg = document.getElementById("img01");
+
+var imgs = document.querySelectorAll(".grid-image");
+var modalImg = document.getElementById("img");
 var captionText = document.getElementById("caption");
-var navBar = document.getElementById('menu');
-var logo = document.getElementsByClassName('breadcrumbs-logo');
-img.onclick = function () {
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-    //navBar.style.display = "none";
-    //logo.style.display= "none";
+
+
+
+for (var i = 0; i < imgs.length; i++) {  //iteracja dla każdej kolejnej klasy (ponieważ qSelector zwraca Arrey elementów!)
+    var img = imgs[i];
+    img.onclick = function () {
+
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+
+    }
 }
+
+
+
+
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
@@ -85,3 +95,6 @@ var span = document.getElementsByClassName("close")[0];
 modal.onclick = function () {
     modal.style.display = "none";
 }
+
+
+
