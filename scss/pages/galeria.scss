@@ -47,8 +47,10 @@
     .modal-content {
         margin: auto;
         display: block;
-        width: 80%;
-        max-width: 700px;
+        // width: 80%;
+        // max-width: 700px;
+        max-height: calc(100vh - 100px * 2);
+        width: auto;
     }
     /* Caption of Modal Image */
     #caption {
