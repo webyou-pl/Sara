@@ -1,0 +1,20 @@
+.subpage-contact{
+	&__address{
+
+    }
+	&__form{
+
+    }
+	&__gmap{
+        height: 400px;
+        margin-bottom: -$main-padding;
+        iframe{
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100vw;
+            height: 100%;
+        }
+    }
+}

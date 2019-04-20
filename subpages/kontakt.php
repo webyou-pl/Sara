@@ -31,7 +31,7 @@
                         </form>
                     </div>
                     <div class="col-12 subpage-contact__gmap">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10024.924534323813!2d17.0530729!3d51.0857418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd219ba0dee9742d8!2sSara+Nowodworska+Sara+Nails!5e0!3m2!1spl!2spl!4v1555748051179!5m2!1spl!2spl" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3544.3408238899156!2d17.051897672424307!3d51.085810127861144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd219ba0dee9742d8!2sSara+Nowodworska+Sara+Nails!5e0!3m2!1spl!2spl!4v1555750197582!5m2!1spl!2spl" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
 
