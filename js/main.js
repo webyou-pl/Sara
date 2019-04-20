@@ -61,82 +61,42 @@ if (document.querySelector('[data-counter]')) {
 }
 
 
-// JS CENNIK DO ZABAWYH POTEM DO USUNIECIA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+// Galleria
+
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+
+var imgs = document.querySelectorAll(".grid-image");
+var modalImg = document.getElementById("img");
+var captionText = document.getElementById("caption");
 
 
 
-/* dzila
-var plus = './images/cennik/plus.png';
-var minus = "./images/cennik/minus.png";
-var classElement = document.querySelector('.plusMinus');
-var falTru = false;
+for (var i = 0; i < imgs.length; i++) {  //iteracja dla każdej kolejnej klasy (ponieważ qSelector zwraca Arrey elementów!)
+    var img = imgs[i];
+    img.onclick = function () {
 
-classElement.addEventListener('click', function () {check()}
-);
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
 
-function check(){
-    if(falTru==false){
-    $('.plusMinus').attr('src', "./images/cennik/plus.png");
-    falTru = true;}
-    else {
-        $('.plusMinus').attr('src', "./images/cennik/minus.png");
-        falTru = false;}
-};
-*/
-
-// Dla samego img w HTML
-
-/*
-var plus = './images/cennik/plus.png';
-var minus = "./images/cennik/minus.png";
-
-var falTru = false;
-
-
-$("button").click(function ()  {
-    if (falTru == false) {
-        $('button img').attr('src', "./images/cennik/plus.png");
-        falTru = true;
     }
-    else {
-        $('button img').attr('src', "./images/cennik/minus.png");
-        falTru = false;
-    }
-});
-*/
-
-
-/* Dla Klasy
-var falTru = false;
+}
 
 
 
-$("button").click(function () {
-    if (falTru == false) {
-        $('.plusMinus').attr('src', "./images/cennik/plus.png");
-        falTru = true;
-    }
-    else {
-        $('.plusMinus').attr('src', "./images/cennik/minus.png");
-        falTru = false;
-    }
-});
-*/
 
-/*
-var falTru = false;
 
-$('.plusMinus').one('click', function () {
-    if (falTru == false) {
-        $('.plusMinus').on.attr('src', "./images/cennik/plus.png");
-        falTru = true;
-    }
-    else {
-        $('.plusMinus').attr('src', "./images/cennik/minus.png");
-        falTru = false;
-    };
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
 
-});
-*/
+// When the user clicks on <span> (x), close the modal
+modal.onclick = function () {
+    modal.style.display = "none";
+}
+
 
 
