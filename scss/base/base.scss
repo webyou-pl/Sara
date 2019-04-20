@@ -47,7 +47,7 @@ footer#footer{
 		@include transition(.3s);
 		&:hover{
 			left: -10px;
-			opacity: .8;
+			@include opacity;
 		}
 	}
 }

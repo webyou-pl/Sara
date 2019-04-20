@@ -1,6 +1,39 @@
 .subpage-contact{
+    padding-bottom: $main-padding;
+    text-align: center;
 	&__address{
+        overflow: hidden;
+        @include borderOnImage();
+        @include box-shadow();
+        &--logo{
+            img{
+                max-width: 200px;
+            }
+        }
 
+        &--address{
+            display: inline-block;
+            p{
+                font-size: 1.2rem;
+
+            }
+        }
+        &--social{
+            svg{
+                width: 40px;
+                height: 40px;
+                @include transition(.3s);
+                &:hover{
+                    @include opacity;
+                }
+            }
+        }
+        div:nth-child(n){
+            margin-bottom: 3rem;
+        }
+        div:last-of-type{
+            // margin-bottom: 0rem;
+        }
     }
 	&__form{
 
