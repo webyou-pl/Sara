@@ -1,4 +1,4 @@
-input:not([type='submit']),textarea{
+input:not([type='checkbox']):not([type="submit"]), textarea{
     display: block;
     width: 100%;
     min-height: 30px;
@@ -9,4 +9,47 @@ input:not([type='submit']),textarea{
     &:focus {
         border: 3px solid rgba($secondary,.1);
     }
+
 }
+        input[type="checkbox"]{
+            position: relative;
+            
+            &::before, &::after{
+                display: block;
+                width: 25px;
+                height: 25px;
+            }
+            &::after{
+                content: '';
+                background: red;
+
+                position: absolute;
+                left: 0px;
+                top: 0;
+                transform: translate(-50%);
+            }
+            &::before{
+                content: 'X';
+                position: absolute;
+                left: 0px;
+                top: 0;
+                transform: translate(-50%);
+                z-index: 1;
+                display: none
+            }
+            &:checked{
+                &::after{
+                    background: blue;
+                }
+                &::before{
+                    display: block;
+                }
+
+            }
+            &:hover{
+                &::after{
+                    background: pink;
+                }
+            }
+        
+        }

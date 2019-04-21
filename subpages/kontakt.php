@@ -22,7 +22,7 @@
                         </div>
                         <div class="subpage-contact__address--address">
                             <p><strong>Sara Nowodworska</strong></p> 
-                            <p>Nyska 61A<br/> 50-505 Wrocław</p>
+                            <p>ul. Nyska 61A<br/> 50-505 Wrocław</p>
                             <p>512 567 200</p>
                         </div>
                         <div class="subpage-contact__address--social">
@@ -62,12 +62,11 @@
                         </div>
                     </div>
                     <div class="col-6 offset-md-1 subpage-contact__form">
-                        <form>
+                        <h2 class="h3 mb-5 bottomLine">Formularz <span>Kontaktowy</span></h1>
+                        <form class="pt-5">
                             <input type="email">
                             <input type="tel">
-                            <textarea rows="4" cols="50">
-                                At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies. 
-                            </textarea>
+                            <textarea rows="4" cols="50">At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.</textarea>
                             <input type="checkbox">
                             <input class="btn btn-primary" type="submit" value="Submit">
                         </form>
@@ -87,4 +86,12 @@
         echo $socialMedia_fix;
         echo $template_end_body; 
         ?>
+         <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
+        <script>
+        grecaptcha.ready(function() {
+            grecaptcha.execute('reCAPTCHA_site_key', {action: 'homepage'}).then(function(token) {
+                ...
+            });
+        });
+        </script>
 </html>
