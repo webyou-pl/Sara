@@ -23,7 +23,7 @@
                         <div class="subpage-contact__address--address">
                             <p><strong>Sara Nowodworska</strong></p> 
                             <p>ul. Nyska 61A<br/> 50-505 Wrocław</p>
-                            <p>512 567 200</p>
+                            <p> <a href="tel:512567200">512 567 200</a> </p>
                         </div>
                         <div class="subpage-contact__address--social">
                             <a target="_blank" href="https://www.facebook.com/Sara-Nowodworska-Sara-Nails-2113993628851184">
@@ -64,11 +64,33 @@
                     <div class="col-6 offset-md-1 subpage-contact__form">
                         <h2 class="h3 mb-5 bottomLine">Formularz <span>Kontaktowy</span></h1>
                         <form class="pt-5">
-                            <input type="email">
-                            <input type="tel">
-                            <textarea rows="4" cols="50">At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.</textarea>
-                            <input type="checkbox">
-                            <input class="btn btn-primary" type="submit" value="Submit">
+                            <div class="show-input">
+                                <input type="text" required>
+                                <label>Imię</label>
+                                <span></span>
+                                <p class="e-validation">validation input</p>
+                            </div>
+                            <div class="show-input">
+                                <input type="email" required>
+                                <label>Email</label>
+                                <span></span>
+                                <p class="e-validation">validation input</p>
+                            </div>
+                            <div class="show-input">
+                                <input type="tel" required>
+                                <label>Telefon</label>
+                                <p class="e-validation">validation input</p>
+                                <span></span>    
+                            </div>
+                            <div class="show-input">
+                                <textarea rows="4" cols="50" required></textarea>
+                                <label>Wiadomość</label>
+                                <p class="e-validation">validation input</p>
+                                <span></span>
+                            </div>
+                            <!-- <input type="checkbox"> -->
+                            <!-- <p class="e-validation">validation input</p> -->
+                            <input class="btn btn-primary btn-lg btn-block" type="submit" value="Submit">
                         </form>
                     </div>
                 </div>
@@ -86,12 +108,6 @@
         echo $socialMedia_fix;
         echo $template_end_body; 
         ?>
-         <script src="https://www.google.com/recaptcha/api.js?render=reCAPTCHA_site_key"></script>
-        <script>
-        grecaptcha.ready(function() {
-            grecaptcha.execute('reCAPTCHA_site_key', {action: 'homepage'}).then(function(token) {
-                ...
-            });
-        });
-        </script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<div class="g-recaptcha" data-sitekey="6LdZXJ8UAAAAAJ-C-u7BhtUsmMTlQIR7HisjmrAU"></div>
 </html>

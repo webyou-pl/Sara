@@ -5,6 +5,8 @@
         overflow: hidden;
         @include borderOnImage();
         @include box-shadow();
+        display: table;
+        padding-bottom: 60px;
         &--logo{
             img{
                 max-width: 200px;
@@ -32,7 +34,7 @@
             margin-bottom: 2rem;
         }
         div:last-of-type{
-            // margin-bottom: 0rem;
+            margin-bottom: 0rem;
         }
     }
 	&__form{
