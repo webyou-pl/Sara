@@ -63,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 offset-md-1 subpage-contact__form">
+                    <div class="col-8 subpage-contact__form">
                         <h2 class="h3 mb-5 bottomLine">Formularz <span>Kontaktowy</span></h1>
                         <form class="pt-5">
                             <div class="show-input">
@@ -92,7 +92,7 @@
                             </div>
                             <!-- <input type="checkbox"> -->
                             <!-- <p class="e-validation">validation input</p> -->
-                            <input class="btn btn-primary btn-lg btn-block" type="submit" value="Submit">
+                            <input class="btn btn-primary btn-lg btn-block" type="submit" value="Wyślij">
                         </form>
                     </div>
                 </div>
@@ -101,7 +101,6 @@
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3544.3408238899156!2d17.051897672424307!3d51.085810127861144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd219ba0dee9742d8!2sSara+Nowodworska+Sara+Nails!5e0!3m2!1spl!2spl!4v1555750197582!5m2!1spl!2spl" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
-
             </div>
         </main>
         <?php
@@ -110,6 +109,4 @@
         echo $socialMedia_fix;
         echo $template_end_body; 
         ?>
-<script src='https://www.google.com/recaptcha/api.js'></script>
-<div class="g-recaptcha" data-sitekey="6LdZXJ8UAAAAAJ-C-u7BhtUsmMTlQIR7HisjmrAU"></div>
 </html>

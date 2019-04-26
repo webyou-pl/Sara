@@ -42,14 +42,14 @@
     }
 	&__gmap{
         height: 400px;
-        margin-bottom: -$main-padding;
+        margin-bottom: -50px;
+        @include borderOnImage();
+        @include box-shadow();
+        padding: 0;
+        border: 0;
         iframe{
-            position: absolute;
-            top: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: calc(100vw - 18px);
             height: 100%;
+            width: 100%;
         }
     }
 }

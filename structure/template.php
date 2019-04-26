@@ -49,7 +49,7 @@ $nav_menu = '
             </li>
             <li><a href="'.$address.'/subpages/promocje.php">Promocje</a></li>
             <li><a href="'.$address.'/subpages/galeria.php">Galeria</a></li>
-            <li><a href="'.$address.'/subpages/kontakt.php">kontakt</a></li>
+            <li><a href="'.$address.'/subpages/kontakt.php">Kontakt</a></li>
         </ul>
     </nav>
 ';
@@ -69,7 +69,7 @@ $footer = '
     <footer id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-4 footer__image--sygnet text-center">
+                <div class="col footer__image--sygnet text-center">
                     <a href="#!">
                         <img src="'.$address.'/images/sygnet-sara.svg" alt="sygnet sara">
                     </a>
@@ -109,18 +109,14 @@ $footer = '
                         </a>
                     </div>
                 </div>
-                <div class="col-8">
-                    <div class="row h-100">
-                        <div class="col-6 text-center m-auto">
-                            <p class="mb-2"><strong>Sara Nowodworska</strong></br>Nyska 61A</br>50-505 Wrocław</p>
-                            <p class="mb-2"><strong>Tel:</strong> <a href="tel:512567200">512 567 200</a></p>
-                        </div>
-                        <div class="col-6 footer__image--logo">
-                            <a href="#!">
-                                <img src="'.$address.'/images/logo-sara.svg" alt="logo sara">
-                            </a>
-                        </div>
-                    </div>
+                <div class="col text-center m-auto">
+                    <p class="mb-2"><strong>Sara Nowodworska</strong></br>Nyska 61A</br>50-505 Wrocław</p>
+                    <p class="mb-2"><strong>Tel:</strong> <a href="tel:512567200">512 567 200</a></p>
+                </div>
+                <div class="col footer__image--logo">
+                    <a href="#!">
+                        <img src="'.$address.'/images/logo-sara.svg" alt="logo sara">
+                    </a>
                 </div>
             </div>
         </div>
