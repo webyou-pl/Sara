@@ -8,7 +8,7 @@
 
 // zmniejszanie nav
 const menu = document.getElementById('menu');
-const heightMenu = menu.offsetHeight;
+const heightMenu = 10;
 
 document.addEventListener('scroll', function(){
     let yOffset = window.pageYOffset;
@@ -21,6 +21,17 @@ document.addEventListener('scroll', function(){
         menu.classList.remove('scroll-nav');
     }
 } );
+window.onload = function() {
+    let yOffset = window.pageYOffset;
+
+    if(yOffset >= heightMenu){
+        menu.classList.add('scroll-nav');
+    }
+    
+    if(yOffset < heightMenu){
+        menu.classList.remove('scroll-nav');
+    }
+};
 
 // efekt liczb
 if (document.querySelector('[data-counter]')) {
