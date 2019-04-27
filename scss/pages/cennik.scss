@@ -21,10 +21,11 @@
                             position:absolute;
                             top:0;
                             left: 0;
+                            @include transition(.3s);
                         }
                         &:hover{
                             &::before{
-                                opacity: 0.8;
+                                @include opacity;
                                 background: $primary;
                                 cursor: pointer;        
                             }

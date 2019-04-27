@@ -1,12 +1,14 @@
 body > section,
 body > main {
-    padding-top: 100px;    
-	padding-bottom: 100px;    
+    padding-top: $main-padding;    
+	padding-bottom: $main-padding;    
 	
 	p{
 		font-size: 1rem;
 	}
+
 }
+
 
 footer#footer{
 	padding-top: 20px;    
@@ -47,7 +49,7 @@ footer#footer{
 		@include transition(.3s);
 		&:hover{
 			left: -10px;
-			opacity: .8;
+			@include opacity;
 		}
 	}
 }
