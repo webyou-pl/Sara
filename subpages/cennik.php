@@ -24,7 +24,7 @@
                         <div class="card-header" id="headingOne">
                         <h5 class="mb-0">
                             <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                             Manicure
+                             <p>Manicure</p>
                             </button>
                         </h5>
                         </div>
@@ -84,7 +84,7 @@
                         <div class="card-header" id="headingTwo">
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Pedicure
+                            <p>Pedicure</p>
                             </button>
                         </h5>
                         </div>
@@ -140,7 +140,7 @@
                         <div class="card-header" id="headingThree">
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Brwi i rzęsy
+                            <p>Brwi i rzęsy</p>
                             </button>
                         </h5>
                         </div>
@@ -177,7 +177,7 @@
                         <div class="card-header" id="headingFour">
                         <h5 class="mb-0">
                             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                           Depilacja
+                           <p>Depilacja</p>
                             </button>
                         </h5>
                         </div>
