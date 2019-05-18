@@ -46,6 +46,7 @@
         min-height: 400px;
         position: relative;
         justify-content: flex-end;
+      
     }
     h2{
         position: absolute;
@@ -59,6 +60,7 @@
         @include borderOnImage();
         @include box-shadow();
         @include centerImg();
+               
     }
     .imageOn{
         width: 250px;
@@ -68,9 +70,28 @@
         top: 50%;
         right: 0px;
         transform: translateY(-50%);
+          @media (min-width: 768px) and (max-width: 991px) {
+              width:187px;
+              height:225px;
+          }
+          @media (min-width: 282px) and (max-width: 768px) {
+            
+            width:140px;
+            height:169px;
+          }
+
     }
     .imageUnder{
         width: 350px;
+               @media (min-width: 767px) and (max-width: 991px) {
+                   width: 262px;
+                   height: 300px;
+               }
+                  @media (min-width: 282px) and (max-width: 768px) {
+                      width: 196px;
+                      height: 225px;
+                  }
+
     }
 }
 
@@ -155,6 +176,7 @@
         .imageUnder{
             width: 400px;
         }
+        
     }   
 }
 
@@ -185,5 +207,9 @@
             }
         }
     }
+
+}
+
+@media (min-width: 282px) and (max-width: 767px) {
 
 }
