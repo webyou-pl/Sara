@@ -46,6 +46,9 @@
         min-height: 400px;
         position: relative;
         justify-content: flex-end;
+             @media (min-width: 282px) and (max-width: 767px) {
+            top:30%;
+        }
     }
     h2{
         position: absolute;
@@ -63,18 +66,33 @@
     .imageOn{
         max-width: 250px;
         width: 100%;
-        
-        height: 50%;
+        max-height: 300px;
         position: absolute;
         z-index: 2;
         top: 50%;
         right: 0px;
         transform: translateY(-50%);
+        
+
+        @media (min-width: 282px) and (max-width: 767px) {
+           
+            
+            max-width: 125px;
+            width: 100%;
+            max-height: 150px;
+                img{
+                object-fit: scale-down;  // nie chce dzialac :(
+                object-position: 10px 75px;
+                
+            }
+            
+        }
     }
     .imageUnder{
         width: 100%;
         max-width: 350px;
         height: auto;
+   
     }
 }
 
@@ -100,7 +118,7 @@
         align-items: center;
         position: relative;
         z-index: 2;
-
+         
         &__border{
             height: 190px;
             width: 190px;
@@ -113,6 +131,7 @@
             justify-content: center;
             align-items: center;
             position: relative;
+       
             h4{
                 position: absolute;
                 top: 0;
@@ -155,6 +174,10 @@
             z-index: 2;
             top: -3rem;
             right: 0px;
+            @media (min-width: 282px) and (max-width: 767px) {
+                
+            }
+
         }
         .imageUnder{
             width: 400px;
