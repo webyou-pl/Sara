@@ -37,12 +37,22 @@ $template_end_body = '
 ';
 
 $nav_menu = '
+    <div id="menu-mobil" class="d-xl-none">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+            <path style="line-height:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;block-progression:tb;isolation:auto;mix-blend-mode:normal" d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z" font-weight="400" font-family="sans-serif" white-space="normal" overflow="visible"></path>
+        </svg>
+    </div>
     <nav id="menu" class="">
         <ul>
+            <li class="logo-menu-mobil d-block d-xl-none">
+                <a href="'.$address.'/index.php">
+                    <img src="'.$address.'/images/logo-sara.svg" alt="logo Sara Nowodworska">
+                </a>
+            </li>
             <li><a href="'.$address.'/index.php">Strona główna</a></li>
             <!-- <li><a href="'.$address.'/subpages/o-mnie.php">O mnie</a></li> -->
             <li><a href="'.$address.'/subpages/cennik.php">Cennik</a></li>
-            <li class="logo-menu">
+            <li class="logo-menu d-none d-xl-block">
                 <a href="'.$address.'/index.php">
                     <img src="'.$address.'/images/logo-sara.svg" alt="logo Sara Nowodworska">
                 </a>
