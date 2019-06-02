@@ -9,4 +9,7 @@ section#cta{
     position: relative;
     background-attachment: fixed;
     overflow: hidden;
+                 @media (max-width: 575.98px) {
+                  top:0px;
+                 }
 }

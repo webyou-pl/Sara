@@ -23,7 +23,7 @@
         <section id="aboutMe">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-sm-12 col-md-6 ">
                         <div class="images">
                             <h2 class="rotate-15">O mnie</h2>
                             <img src="images/strona-glowna/o-mnie/Nyska-61A.jpg" class="imageUnder" alt="Nsuak 61A">
@@ -32,7 +32,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 px-5 pt-5 text-center">
+                    <div class="col-sm-12 col-md-6 px-5 pt-5 text-center">
                         <h1 class="h3 mb-5 bottomLine">Nowodworska <span>Sara</span></h3>
                         <p class="mb-5"> Stylizacja paznokci jest moją <strong>pasją od wielu lat.</strong> Hobby stało się moją pracą, w którą wkładam wiele serca dając satysfakcje i poczucie piękna swoim klientkom. To z kolei <strong>motywuje mnie</strong> do nieustannego poszerzania wiedzy i poznawania nowych technik oraz trendów w tej branży. Poza stylizacją paznokci wykonuję również inne zabiegi, których spis został przedstawiony w cenniku. <strong>Zapraszam serdecznie!</strong></p>
                         <a href="#!" class="btn btn-primary">Kontakt</a>
@@ -47,7 +47,7 @@
                 <h2 class="mb-5">Pasja mnie napędza</h2>
                 <p class="mb-5">Praesent quis ante nec <strong>erat hendrerit</strong> fermentum et ac nunc. Pellentesque condimentum convallis nulla, <strong>eu dictum diam pellentesque vel.</strong> Morbi id gravida arcu, non pharetra magna. Mauris tincidunt erat eget tristique lacinia. <strong>Etiam at dapibus ligula, at blandit enim.</strong> Maecenas at sem condimentum, facilisis sapien eget, dignissim mi. Nullam ligula mauris, aliquam vitae lectus a, sagittis ornare est. Proin tempor mauris arcu, nec <strong>egestas justo luctus sollicitudin.</strong> Phasellus ac suscipit nisl.</p>
                 <div class="row">
-                    <div class="col-4 d-flex justify-content-center">
+                    <div class="col-sm-12 col-md-4 d-flex justify-content-center">
                         <div class="number-wheel">
                             <div class="number-wheel__border">
                                 <div class="number-wheel__value">
@@ -57,7 +57,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 d-flex justify-content-center">
+                    <div class="col-sm-12 col-md-4 d-flex justify-content-center">
                         <div class="number-wheel">
                             <div class="number-wheel__border">
                                 <div class="number-wheel__value">
@@ -67,7 +67,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4 d-flex justify-content-center">
+                    <div class="col-sm-12 col-md-4 d-flex justify-content-center">
                         <div class="number-wheel">
                             <div class="number-wheel__border">
                                 <div class="number-wheel__value">
@@ -85,12 +85,12 @@
         <section id="sale">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 px-5 pt-5 text-center">
+                    <div class="col-sm-12 col-md-6  px-5 pt-5 text-center">
                         <h3 class="mb-5 bottomLine">Specjalne <span>oferty<span></h3>
                         <p class="mb-5">Integer tincidunt iaculis pellentesque. <strong>Duis rutrum nulla quam,</strong> vitae sollicitudin arcu iaculis quis. Pellentesque hendrerit est <strong>ac justo pulvinar,</strong> ultrices faucibus orci fringilla. Nullam vel orci ut sapien molestie tempus. Vivamus finibus, <strong>orci vel porttitor</strong> accumsan, risus mi sodales risus, vitae vestibulum nisl est id quam. Nulla pulvinar erat luctus velit scelerisque cursus. <strong>Cras eleifend tristique est.</strong></p>
                         <a href="#!" class="btn btn-primary">Sprawdź promocje</a>
                     </div>
-                    <div class="col-6">
+                    <div class="col-sm-12 col-md-6 ">
                         <div class="images">
                             <h2 class="rotate15">Promocje</h2>
                             <img src="images/strona-glowna/promocja/okazja.jpg" class="imageUnder" alt="Wyjątkowe promocje">
