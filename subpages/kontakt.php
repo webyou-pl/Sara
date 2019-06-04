@@ -15,7 +15,7 @@
             <div class="container">
                 
                 <div class="row subpage-contact">
-                    <div class="col-4">
+                    <div class="col-sm-12 col-md-4">
                         <h1 class="mb-5">Kontakt</h1>
                         <div class="subpage-contact__address w-100">
                             <div class="subpage-contact__address--logo">
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-8 subpage-contact__form">
+                    <div class="col-sm-12 col-md-8 subpage-contact__form">
                         <h2 class="h3 mb-5 bottomLine">Formularz <span>Kontaktowy</span></h1>
                         <form class="pt-5">
                             <div class="show-input">

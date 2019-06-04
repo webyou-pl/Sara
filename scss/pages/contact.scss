@@ -38,7 +38,9 @@
         }
     }
 	&__form{
-
+        @media (max-width: 575.98px) {
+            margin-top: 25px;
+        }
     }
 	&__gmap{
         height: 400px;
@@ -54,32 +56,3 @@
     }
 }
 
-@media (min-width: 282px) and (max-width: 480px) { 
-    
-    .subpage-contact{
-        .mb-5{
-            font-size: 1.5rem;
-            padding:0;
-            margin-left: auto;
-            margin-right: auto;
-             &::after{
-                display: none;
-             }
-        }
-        &__address{
-            padding-bottom: 100px;
-        }
-        &__form{
-            .pt-5{
-                .btn{
-                    width: 70%;
-                    margin-left: auto;
-                }
-                .show-input{
-                    width: 70%;
-                    margin-left: auto;
-                    }
-            }
-        }
-    }
-}
