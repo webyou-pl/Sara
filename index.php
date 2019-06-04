@@ -32,7 +32,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 px-5 pt-5 text-center">
+                    <div class="col-sm-12 col-md-6 px-5 pt-5 text-center tytul">
                         <h1 class="h3 mb-5 bottomLine">Nowodworska <span>Sara</span></h3>
                         <p class="mb-5"> Stylizacja paznokci jest moją <strong>pasją od wielu lat.</strong> Hobby stało się moją pracą, w którą wkładam wiele serca dając satysfakcje i poczucie piękna swoim klientkom. To z kolei <strong>motywuje mnie</strong> do nieustannego poszerzania wiedzy i poznawania nowych technik oraz trendów w tej branży. Poza stylizacją paznokci wykonuję również inne zabiegi, których spis został przedstawiony w cenniku. <strong>Zapraszam serdecznie!</strong></p>
                         <a href="#!" class="btn btn-primary">Kontakt</a>
@@ -116,7 +116,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-4 " >
                             <div class="gallery-image">
                                 <a href="#!">
                                     <img src="images/strona-glowna/galleria/42872961.jpg" class="img-fluid" alt="Manicure">
