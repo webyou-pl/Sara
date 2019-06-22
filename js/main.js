@@ -1,3 +1,5 @@
+//import { on } from "cluster";
+
 //** Moduły**/
 // import scrollnav from './modules/scroll-nav';
 
@@ -6,7 +8,7 @@
 
 // zmniejszanie nav
 const menu = document.getElementById('menu');
-const heightMenu = menu.offsetHeight;
+const heightMenu = 10;
 
 document.addEventListener('scroll', function(){
     let yOffset = window.pageYOffset;
@@ -19,6 +21,17 @@ document.addEventListener('scroll', function(){
         menu.classList.remove('scroll-nav');
     }
 } );
+window.onload = function() {
+    let yOffset = window.pageYOffset;
+
+    if(yOffset >= heightMenu){
+        menu.classList.add('scroll-nav');
+    }
+    
+    if(yOffset < heightMenu){
+        menu.classList.remove('scroll-nav');
+    }
+};
 
 // efekt liczb
 if (document.querySelector('[data-counter]')) {
@@ -57,3 +70,44 @@ if (document.querySelector('[data-counter]')) {
         }
     }, 200)
 }
+
+
+// Galleria
+
+
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+
+var imgs = document.querySelectorAll(".grid-image");
+var modalImg = document.getElementById("img");
+var captionText = document.getElementById("caption");
+
+
+
+for (var i = 0; i < imgs.length; i++) {  //iteracja dla każdej kolejnej klasy (ponieważ qSelector zwraca Arrey elementów!)
+    var img = imgs[i];
+    img.onclick = function () {
+
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+
+    }
+}
+
+
+
+
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+modal.onclick = function () {
+    modal.style.display = "none";
+}
+
+
+

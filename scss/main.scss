@@ -6,6 +6,7 @@
 
 // base
     @import 
+        "base/forms.scss",
         "base/reset.scss",
         "base/buttons.scss",
         "base/base.scss",
@@ -15,7 +16,9 @@
     @import 
         "layout/header.scss",
         "layout/cta.scss",
+        "layout/breadcrumbs.scss",
         "layout/navbar.scss",
+        "layout/copyright.scss",
         "layout/footer.scss";
 
 
@@ -26,4 +29,9 @@
 
 // pages
     @import 
-        "pages/homepage.scss";
+        "pages/promations.scss",
+        "pages/contact.scss",
+        "pages/homepage.scss",
+        "pages/cennik.scss",
+        "pages/galeria.scss";
+

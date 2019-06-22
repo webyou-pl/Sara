@@ -1,0 +1,58 @@
+.subpage-contact{
+    padding-bottom: $main-padding;
+    text-align: center;
+	&__address{
+        overflow: hidden;
+        @include borderOnImage();
+        @include box-shadow();
+        display: table;
+        padding-bottom: 60px;
+        &--logo{
+            img{
+                max-width: 200px;
+            }
+        }
+
+        &--address{
+            display: inline-block;
+            p{
+                font-size: 1.2rem;
+
+            }
+        }
+        &--social{
+            svg{
+                width: 40px;
+                height: 40px;
+                @include transition(.3s);
+                &:hover{
+                    @include opacity;
+                }
+            }
+        }
+        div:nth-child(n){
+            margin-bottom: 2rem;
+        }
+        div:last-of-type{
+            margin-bottom: 0rem;
+        }
+    }
+	&__form{
+        @media (max-width: 575.98px) {
+            margin-top: 25px;
+        }
+    }
+	&__gmap{
+        height: 400px;
+        margin-bottom: -50px;
+        @include borderOnImage();
+        @include box-shadow();
+        padding: 0;
+        border: 0;
+        iframe{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
