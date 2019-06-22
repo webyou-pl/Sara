@@ -8,12 +8,18 @@
     background-position: top;
     position: relative;
 
+    @media (max-width: 1199.98px) {
+        min-height: 0;
+        max-height: 130px;
+
+    }
+
 
     .slider-logo{
         position: absolute;
         bottom: -25px;
         left: 50%;
-        z-index: 10;
+        z-index: 8;
         background: #fff;
         width: 150px;
         height: 150px;
@@ -32,7 +38,6 @@
         left: 50%;
         transform: translate(-50%);
         font-size: 3rem;
-
         &.bottomLine{
             &::after{
                 bottom: -20px;
@@ -46,12 +51,32 @@
         min-height: 400px;
         position: relative;
         justify-content: flex-end;
-    }
+ 
+        }
+    
+
     h2{
         position: absolute;
         top: -30px;
         left: -30px;
         z-index: 3;
+         @media (max-width: 575.98px) {
+           right:50%;
+           transform: translateX(50%);
+        }
+        @media (min-width: 576px) and (max-width: 767.98px){
+                right:50%;
+                transform: translateX(50%);
+                
+        }
+        @media (min-width: 768px) and (max-width: 991.98px) {
+            right:50%;
+            transform: translateX(50%);
+            transform: rotate(-15deg);
+            left:10%;
+            top: 5%;
+        }
+        
     }
     .imageUnder, .imageOn{
         height: 400px;
@@ -61,16 +86,37 @@
         @include centerImg();
     }
     .imageOn{
-        width: 250px;
-        height: 300px;
+        max-width: 250px;
+        width: 100%;
+        max-height: 300px;
         position: absolute;
         z-index: 2;
         top: 50%;
         right: 0px;
         transform: translateY(-50%);
-    }
+                   @media (max-width: 575.98px) {
+                    right:50%;
+                    transform: translate(50%, 0%);
+                    top:5%;
+                 }
+                 @media (min-width: 576px) and (max-width: 767.98px) {
+                     right: 50%;
+                     transform: translate(50%, 0%);
+                     top: 5%;
+                 }
+              
+
+  
+        } 
+        
     .imageUnder{
-        width: 350px;
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+         @media (max-width: 991px) {
+             display: none;
+         }
+   
     }
 }
 
@@ -96,12 +142,28 @@
         align-items: center;
         position: relative;
         z-index: 2;
-
+           
+   
+       @media (max-width: 575.98px) {
+        //    width: 100px;
+        //    height: 100px;
+           margin-bottom: 15px;
+            
+        }
+        @media (min-width: 576px) and (max-width: 767.98px){
+            margin-bottom: 15px;
+        }
+         
         &__border{
             height: 190px;
             width: 190px;
             border-radius: 50%;
             border: 2px solid $secondary;
+            @media (max-width: 575.98px) {
+             width: 90%;
+             height: 90%;
+
+            }
         }
         &__value{
             height: 100%;
@@ -109,6 +171,10 @@
             justify-content: center;
             align-items: center;
             position: relative;
+             @media (max-width: 575.98px) {
+                 object-fit: scale-down;
+             }
+       
             h4{
                 position: absolute;
                 top: 0;
@@ -116,34 +182,67 @@
                 transform: translateX(-50%);
                 margin-bottom: 1.5rem;
                 white-space: nowrap;
+                 @media (max-width: 575.98px) {
+                    //   font-size: 1.1rem;
+                  }
             }
             p{
                 font-size: 3rem;
                 font-weight: bold;
+                         @media (max-width: 575.98px) {
+                             font-size: 1.9rem;
+                         }
             }
         }
     }
 }
 
 #sale{
+            @media (max-width: 575.98px) {
+                padding-bottom:50px;
+                padding-top:10px
+            }
     .images{
         min-height: 400px;
         position: relative;
         justify-content: flex-end;
         margin-top: 3rem;
+               @media (max-width: 575.98px) {
+                        
+               }
 
         h2{
             position: absolute;
             right: -30px;
             z-index: 3;
             top: calc(-3rem - 30px);
+            @media (max-width: 575.98px) {
+            right:50%;
+            transform: translateX(50%);
+            top:-5%;
+            }
+            @media  (max-width: 767.98px){
+                    display: none;
+                    
+            }
+            @media (min-width: 768px) and (max-width: 991.98px) {
+                right:50%;
+                transform: translateX(50%);
+                transform: rotate(15deg);
+                top:-25%;
+                left: 55%;
+            }
         }
+
+        
         .imageUnder, .imageOn{
             height: 400px;
             overflow: hidden;
             @include borderOnImage();
             @include box-shadow();
             @include centerImg();
+
+   
         }
         .imageOn{
             width: 300px;
@@ -151,17 +250,41 @@
             z-index: 2;
             top: -3rem;
             right: 0px;
+               @media (max-width: 575.98px) {
+                    right:50%;
+                    transform: translate(50%, 0%);
+                    top:-5%;
+                }
+                          @media (min-width: 576px) and (max-width: 767.98px) {
+                              right: 50%;
+                              transform: translate(50%, 0%);
+                              top: -5%;
+
+
+                          }
+           
         }
         .imageUnder{
-            width: 400px;
+            max-width: 100%;
+               height: auto;
+               @media (max-width: 991.98px) {
+                   display: none;
+               }
         }
     }   
 }
 
-#gallery{
+#gallery {
     position: relative;
-    min-height: 600px;
-    .gallery-bg{
+    height: 600px;
+    padding-bottom: 0px;
+
+    @media (max-width: 575.98px) {
+        padding-top: 30px;
+        height: 350px;
+    }
+
+    .gallery-bg {
         width: 100%;
         height: 400px;
         background: $primary;
@@ -169,20 +292,39 @@
         top: 0;
         left: 0;
         z-index: -1;
+
+        @media (max-width: 575.98px) {
+            height: 55%;
+        }
+     
+
     }
-    .gallery{
-        &-image{
+
+    .gallery {
+        &-image {
             position: relative;
             @include borderOnImage();
             @include box-shadow();
             @include transition(.6s);
             z-index: 1;
             
-            &:hover{
+   
+
+            &:hover {
                 transform: scale(1.1);
                 z-index: 9;
-                box-shadow: -8px 14px 20px 0px rgba(0,0,0,0.75);
+                box-shadow: -8px 14px 20px 0px rgba(0, 0, 0, 0.75);
+                               @media (max-width: 575.98px) {
+                                   &:hover {
+                                           @include borderOnImage();
+                                           @include box-shadow();
+                                           transform:none;
+
+
+                                   }
+                               }
             }
+     
         }
     }
 

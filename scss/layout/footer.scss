@@ -40,7 +40,7 @@ footer#footer{
             width: 30px;
             display: inline-block;
             &:hover{
-                opacity: .8;
+                @include opacity;
             }
         }   
     }

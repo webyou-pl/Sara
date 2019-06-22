@@ -19,3 +19,8 @@
 @mixin background-image-linear-gradient($bgImage) {
     background-image: linear-gradient(rgba($primary,0.8),rgba($primary,0.75)),url($bgImage);
 }
+
+@mixin opacity($opacity: 0.8) {
+    opacity: $opacity;
+}
+
