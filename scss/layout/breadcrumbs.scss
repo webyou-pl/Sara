@@ -7,6 +7,14 @@
     background-position: top;
     position: relative;
 
+    
+    @media (max-width: 1199.98px) {
+        
+        height: 130px;
+        min-height: auto;
+    }
+
+
     .breadcrumbs-logo{
         position: absolute;
         bottom: -25px;

@@ -1,7 +1,12 @@
 body > section,
 body > main {
     padding-top: $main-padding;    
-	padding-bottom: $main-padding;    
+	padding-bottom: $main-padding;
+	
+	@media (max-width: 1199.98px) {
+		padding-top: calc(#{$main-padding} / 2);    
+		padding-bottom: calc(#{$main-padding} / 2);
+	}
 	
 	p{
 		font-size: 1rem;
@@ -41,6 +46,7 @@ footer#footer{
 	position: fixed;
 	top: 200px;
 	right: -15px;
+	z-index: 2;
 	.fixedFb, .fixedIn{
 		height: 50px;
 		width: 50px;
